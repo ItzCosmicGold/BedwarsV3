@@ -1,0 +1,397 @@
+LoreStatus:
+  Locked: '&cLocked!'
+  Unlocked: '&eClick to select!'
+  Selected: '&aSELECTED!'
+PlaceholderItems:
+  Decorations:
+    Enable: true
+    Item: STAINED_GLASS_PANE
+    Data: 15
+  NextPage:
+    Name: '&aNext'
+    Item: ARROW
+    Location: 50
+    Lore:
+    - ' '
+    - '&eClick to go to next page.'
+  PreviousPage:
+    Name: '&aPrevious'
+    Item: ARROW
+    Location: 48
+    Lore:
+    - ' '
+    - '&eClick to go to previous page.'
+  Close:
+    Name: '&cClose'
+    Item: BARRIER
+    Location: 49
+    Lore:
+    - ' '
+    - '&eClick to close.'
+MainMenu:
+  Title: '&8MinigamesAddons'
+  Size: 54
+  Items:
+    Decorations:
+      Enable: true
+      Item: STAINED_GLASS_PANE
+      Data: 15
+    Profile:
+      Enable: true
+      Name: '&aPlayer &b{player}''s &aProfile'
+      Location: 4
+      Lores:
+      - ' '
+      - '&eSelected:'
+      - ' &7VictoryDance: &a{dance}'
+      - ' &7BowTrail: &a{trail}'
+      - ' &7KillEffect: &a{effect}'
+      - ' &7DeathCry: &a{deathcry}'
+      - ' &7Auras: &a{auras}'
+    KillEffect:
+      Enable: true
+      Name: '&aKill Effect'
+      Item: DIAMOND_SWORD
+      Location: 20
+      Lores:
+      - ' '
+      - '&7The effect that will be played'
+      - '&7when you kill a player!'
+      - '&7Use them for celebrate!'
+      - ''
+      - '&7Selected: &a{selected}'
+      - ''
+      - '&eClick to view.'
+    Auras:
+      Enable: true
+      Name: '&aAuras'
+      Item: ENDER_PEARL
+      Location: 30
+      Lores:
+      - ' '
+      - '&7The effect that will be played'
+      - '&7when you are walking!'
+      - ''
+      - '&7Selected: &a{selected}'
+      - ''
+      - '&eClick to view.'
+    ShopkeeperSkins:
+      Enable: true
+      Name: '&aShopkeeper Skins'
+      Item: MONSTER_EGG
+      Location: 32
+      Lores:
+      - ' '
+      - '&7Spawn the Shopkeeper of the'
+      - '&7type you choose!'
+      - ''
+      - '&7Selected: &a{selected}'
+      - ''
+      - '&eClick to view.'
+    DeathCry:
+      Enable: true
+      Name: '&aDeath Cry'
+      Item: GHAST_TEAR
+      Location: 24
+      Lores:
+      - ' '
+      - '&7Let others know just how'
+      - '&7salty your tears are every'
+      - '&7time when you get killed!'
+      - ''
+      - '&7Selected: &a{selected}'
+      - ''
+      - '&eClick to view.'
+    BowTrail:
+      Enable: true
+      Name: '&aBow Trail'
+      Item: BOW
+      Location: 38
+      Lores:
+      - ' '
+      - '&7Change your bow trail'
+      - '&7into a fancy way!'
+      - ''
+      - '&7Selected: &a{selected}'
+      - ''
+      - '&eClick to view.'
+    VictoryDance:
+      Enable: true
+      Name: '&aVictory Dance'
+      Item: BLAZE_POWDER
+      Location: 42
+      Lores:
+      - ''
+      - '&7Celebrate your victory by'
+      - '&7using these fantastic effects!'
+      - ''
+      - '&7Selected: &a{selected}'
+      - ''
+      - '&eClick to view.'
+    Close:
+      Enable: true
+      Name: '&cClose'
+      Item: BARRIER
+      Location: 49
+BowTrailsMenu:
+  Title: '&8Bow Trails'
+  CosmeticLore:
+  - ' '
+  - '&7Select {cosmetic} &7as your'
+  - '&7Bow Trails!'
+  - '&7Also works for Eggs, Snowballs etc.'
+  - ' '
+  - '&7Current: &a{current}'
+  - ' '
+  - '{selectStatus}'
+DeathCriesMenu:
+  Title: '&8Death Cries'
+  CosmeticLore:
+  - ' '
+  - '&7Select {cosmetic} &7as your'
+  - '&7Death Cry!'
+  - ' '
+  - '&7Current: &a{current}'
+  - ' '
+  - '{selectStatus}'
+AurasMenu:
+  Title: '&8Auras'
+  CosmeticLore:
+  - ' '
+  - '&7Select {cosmetic} &7as your'
+  - '&7Auras'
+  - ' '
+  - '&7Current: &a{current}'
+  - ' '
+  - '{selectStatus}'
+ShopKeeperSkinsMenu:
+  Title: '&8Shopkeeper Skins'
+  CosmeticLore:
+  - ' '
+  - '&7Select {cosmetic} &7as your'
+  - '&7Shopkeeper skin!'
+  - ' '
+  - '&7Current: &a{current}'
+  - ' '
+  - '{selectStatus}'
+KillEffectMenu:
+  Title: '&8Kill Effect'
+  Size: 54
+  Items:
+    Decorations:
+      Enable: true
+      Item: STAINED_GLASS_PANE
+      Data: 15
+    None:
+      Name: '&aNone'
+      Item: BARRIER
+      Location: 10
+      Lores:
+      - ' '
+      - '&7Don''t use any effect.'
+      - ' '
+      - '&e{selectStatus}'
+    HeartExplosion:
+      Name: '&aHeart Explosion'
+      Item: REDSTONE
+      Location: 11
+      Lores:
+      - ' '
+      - '&7Make explosions with HEARTS!'
+      - ' '
+      - '&e{selectStatus}'
+    Firework:
+      Name: '&aFirework'
+      Item: FIREWORK
+      Location: 12
+      Lores:
+      - ' '
+      - '&7Best for celebrating!'
+      - ' '
+      - '&e{selectStatus}'
+    Lightning:
+      Name: '&aLightning'
+      Item: WATER_BUCKET
+      Location: 13
+      Lores:
+      - ' '
+      - '&7THUNDER!!!!'
+      - ' '
+      - '&e{selectStatus}'
+    FireDance:
+      Name: '&aFire Dance'
+      Item: FIREWORK_CHARGE
+      Location: 14
+      Lores:
+      - ' '
+      - '&7Dance in the fire!'
+      - ' '
+      - '&e{selectStatus}'
+    Tornado:
+      Name: '&aTornado'
+      Item: MILK_BUCKET
+      Location: 15
+      Lores:
+      - ' '
+      - '&7A big tornado!'
+      - ' '
+      - '&e{selectStatus}'
+    Back:
+      Enable: true
+      Name: '&aBack'
+      Item: ARROW
+      Location: 48
+      Lores:
+      - ' '
+      - '&eClick to go back.'
+    Close:
+      Enable: true
+      Name: '&cClose'
+      Item: BARRIER
+      Location: 49
+      Lores:
+      - ' '
+      - '&eClick to close.'
+VictoryDanceMenu:
+  Title: '&8Victory Dance'
+  Size: 54
+  Items:
+    Decorations:
+      Enable: true
+      Item: STAINED_GLASS_PANE
+      Data: 15
+    None:
+      Name: '&aNone'
+      Item: BARRIER
+      Location: 10
+      Lores:
+      - ' '
+      - '&7Don''t use any effect.'
+      - ' '
+      - '&e{selectStatus}'
+    WitherRider:
+      Name: '&aWither Rider'
+      Item: SKULL_ITEM
+      Location: 11
+      Lores:
+      - ' '
+      - '&7Ride on a wither!'
+      - '&7And shoot skulls!'
+      - ' '
+      - '&e{selectStatus}'
+    AnvilRain:
+      Name: '&aAnvil Rain'
+      Item: ANVIL
+      Location: 12
+      Lores:
+      - ' '
+      - '&7Anvil from the sky!'
+      - ' '
+      - '&e{selectStatus}'
+    TimeShift:
+      Name: '&aTime Shift'
+      Item: WATCH
+      Location: 13
+      Lores:
+      - ' '
+      - '&7Change the time as you want!'
+      - '&7Just like the god! XD'
+      - ' '
+      - '&e{selectStatus}'
+    YeeHaw:
+      Name: '&aYeeHaw!'
+      Item: SADDLE
+      Location: 14
+      Lores:
+      - ' '
+      - '&7Ride on a random horse!'
+      - '&7Like a real Cowboy!'
+      - ' '
+      - '&e{selectStatus}'
+    WarSheep:
+      Name: '&aWarSheep'
+      Item: WOOL
+      Location: 15
+      Lores:
+      - ' '
+      - '&7Ride on a colorful sheep who'
+      - '&7changes its colors and destroy'
+      - '&7every blocks around you!'
+      - ' '
+      - '&e{selectStatus}'
+    FloatingLanterns:
+      Name: '&aFloating Lantern'
+      Item: SEA_LANTERN
+      Location: 16
+      Lores:
+      - ' '
+      - '&7Spawn many floating lanterns'
+      - '&7to fly around you!'
+      - ' '
+      - '&e{selectStatus}'
+    Fireworks:
+      Name: '&aFireworks'
+      Item: FIREWORK
+      Location: 19
+      Lores:
+      - ' '
+      - '&7Spawn many colorful fireworks'
+      - '&7around you!'
+      - ' '
+      - '&e{selectStatus}'
+    ToyStick:
+      Name: '&aToy Stick'
+      Item: STICK
+      Location: 20
+      Lores:
+      - ' '
+      - '&7Click a stick and then'
+      - '&7create a big explosion!'
+      - ' '
+      - '&e{selectStatus}'
+    ColdSnap:
+      Name: '&aCold Snap'
+      Item: ICE
+      Location: 21
+      Lores:
+      - ' '
+      - '&7let it go~ let it go~'
+      - '&7Make the world around you ICE!'
+      - ' '
+      - '&e{selectStatus}'
+    DragonRider:
+      Name: '&aDragon Rider'
+      Item: DRAGON_EGG
+      Location: 22
+      Lores:
+      - ' '
+      - '&7Finally it''s here!'
+      - '&7Ride the dragon and shoot fireballs!'
+      - ' '
+      - '&e{selectStatus}'
+    DareDevil:
+      Name: '&aDare Devil'
+      Item: TNT
+      Location: 23
+      Lores:
+      - ' '
+      - '&7Ride on a skeleton horse'
+      - '&7and destroy everything!'
+      - ' '
+      - '&e{selectStatus}'
+    Back:
+      Enable: true
+      Name: '&aBack'
+      Item: ARROW
+      Location: 48
+      Lores:
+      - ' '
+      - '&eClick to go back.'
+    Close:
+      Enable: true
+      Name: '&cClose'
+      Item: BARRIER
+      Location: 49
+      Lores:
+      - ' '
+      - '&eClick to close.'

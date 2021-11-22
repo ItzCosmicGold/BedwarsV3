@@ -1,0 +1,55 @@
+Plugin:
+  prefix: ''
+  name: '&aCÃƒÂ¡Ã‚ÂºÃ‚Â¦N CÃƒÆ’Ã¢â‚¬Å¡U MÃƒÆ’Ã¢â‚¬Â°T XI &7(NhÃƒÂ¡Ã‚ÂºÃ‚Â¥p chuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t
+    phÃƒÂ¡Ã‚ÂºÃ‚Â£i)'
+  unlimitedUsesName: unlimited
+  unlimitedUses: false
+  useAir: true
+  allRods: true
+  crafting: false
+  enchanted: false
+  unbreakable: false
+  noFallDamage: true
+  useInAllWorlds: true
+  useFloatingBlocks: true
+  cancleOnEntityCatch: true
+  destroyWhenNoMoreUses: true
+  maxUses: 10
+  destroyDelay: 10
+  cooldown: 0.0
+  gravity: 0.35
+  speedMultiplier: 0.25
+  fallDamageRemove: 1.25
+  pullSound: ENDERDRAGON_WINGS
+  destroySound: ANVIL_USE
+Messages:
+  reload: '&aReload!'
+  successful: '&2Operetion successful done.'
+  noperm: '&cYou have no permissions to do that.'
+  unkownCMD: '&7Unknown command or wrong syntax.'
+  unkownPlayer: '&cPlayer: &7%name%&c is unkown or offline!'
+  onlyNumbers: '&cOnly numbers!'
+  addWorld: '&2The world: &7%world%&2 has been added to the list.'
+  removeWorld: '&cThe world: &7%world% &chas been removed from the list.'
+  alreadyInList: '&7World: %world% is already in the list.'
+  isNotInList: '&7World: %world% isn''t in the list.'
+  cooldown: '&aVui lÃƒÆ’Ã‚Â²ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i &6%timeLeft% &agiÃƒÆ’Ã‚Â¢y
+    Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ sÃƒÂ¡Ã‚Â»Ã‚Â­ dung tiÃƒÂ¡Ã‚ÂºÃ‚Â¿p!'
+  valueChanged: '&7You changed the value of &e%option%&7 to: %newValue%'
+  itemNotInHand: '&cThe player has the grapplinghook not in his hand!'
+Recipe:
+  slot1: ''
+  slot2: ''
+  slot3: STICK
+  slot4: ''
+  slot5: STICK
+  slot6: STRING
+  slot7: STICK
+  slot8: ''
+  slot9: IRON_INGOT
+Lore:
+- ''
+- '&eBÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â²n lÃƒÂ¡Ã‚ÂºÃ‚Â¡i &c%uses% &elÃƒÂ¡Ã‚ÂºÃ‚Â§n sÃƒÂ¡Ã‚Â»Ã‚Â­
+  dÃƒÂ¡Ã‚Â»Ã‚Â¥ng!'
+Worlds:
+- ''

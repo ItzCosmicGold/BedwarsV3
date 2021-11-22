@@ -1,0 +1,358 @@
+#
+# The following variables can be used in most messages that involve a punishment:
+#
+# Punishment specific variables
+# $id - The ID of the punishment in the database.
+# $type - Type of punishment - ban, mute, warn, kick.
+# $reason - the reason for the punishment
+# $executor - the moderator's name, or their display name (/nick) if this is enabled in the configuration
+# $executorUUID - the moderator's UUID
+# $permanent - whether this punishment is permanent
+# $ipban - whether this is an IP-ban
+# $silent - whether this punishment was executed silently (-s)
+# $active - whether this punishment is active
+#
+# Affected player specific variables
+# $playerDisplayName - player display name. If display names are not enabled in the configuration or if the player's display name is not available in the message's context, the player's regular name will be used instead.
+# $playerName - player name
+# $playerUUID - UUID of affected player
+# $playerIP - IP of affected player
+# $geoip - Country of affected player, requires GeoIP to be enabled in the configuration, won't work with imported bans
+#
+# Servers
+# These variables represent a server.
+# If the plugin is installed on Spigot, a server is represented by the "server_name" option in config.yml.
+# If the plugin is installed on BungeeCord, a server is represented by their name in the "servers" section in the proxy's config.yml.
+# $serverScope - the scope of the punishment (the server(s) it will affect)
+# $serverOrigin - the origin of the punishment (the server/subserver it was placed on)
+#
+# Dates
+# Example format: "2017-02-03", depends on time_format
+# $dateStart - date the punishment was placed
+# $dateEnd - date the punishment will expire, "forever" if permanent
+#
+# Durations
+# Example format: "20 days, 5 hours, 2 minutes". If permanent, "forever", if expired, "expired" (both are configurable).
+# $duration - time until expiry
+# $originalDuration - the full duration of the punishment.
+# $timeSince - time since placement
+#
+# Configured message variables
+# These variables represent messages in this configuration (messages.yml)
+# $base - banned_message_base
+# $appealMessage - banned_message_appeal_message
+#
+# Global variables
+# $activeBans, $activeMutes, $activeWarnings - total number of global active punishments
+# $totalBans, $totalMutes, $totalWarnings, $totalKicks - total number of global punishments (including inactive ones)
+#
+# Vault-specific variables
+# $playerPrefix - Vault chat prefix of affected player
+# $playerSuffix - Vault chat suffix of affected player
+# $executorPrefix - Vault chat prefix of executor
+# $executorSuffix - Vault chat suffix of executor
+# Any message can be disabled by setting it to "". Empty messages will not be sent by the plugin.
+#
+# Hover text requires permission "litebans.json.hover_text" to view, players lacking permission will see messages without hover text.
+# JSON example:
+# muted: '&cYou are muted! {hoverText: &7$duration remaining}'
+#
+# Hex colors are supported (#000000 - #FFFFFF)
+#
+# https://docs.oracle.com/javase/tutorial/i18n/format/simpleDateFormat.html
+# Example time format with hours + minutes:
+# time_format: 'dd/MM/yyyy HH:mm'
+time_format: yyyy-MM-dd
+history_time_format: yyyy-MM-dd
+banned_message_base: |
+  &cBạn đã bị cấm tại máy chủ này!&f
+
+  &7Vào lúc: &a$dateStart
+  &7Bởi: &aHệ Thống
+  &7Lý do: &a$reason&f
+banned_message: |-
+  $base
+  &7Hết hạn sau: &a$duration
+
+  &7Khiếu nại hoặc mở cấm vui lòng truy cập vào
+    &eDiscord: &a&nhttps://discord.gg/DJdY2RNsK7&e
+    &eGroup: &a&nhttps://facebook.com/groups/noobgownvn
+  $appealMessage
+banned_message_permanent: |-
+  $base
+  &cBạn đã bị cấm vĩnh viễn!
+
+  &7Khiếu nại hoặc mở cấm vui lòng truy cập vào
+    &eDiscord: &a&nhttps://discord.gg/DJdY2RNsK7&e
+    &eGroup: &a&nhttps://facebook.com/groups/noobgownvn
+    &eWebsite: &a&nhttps://luckymcvn.ga
+  $appealMessage
+banned_message_appeal_message: ''
+banned_message_geoip_blacklist: |-
+  &cBạn đã bị cấm ip tại máy chủ này: $geoip
+
+  &7Khiếu nại hoặc mở cấm vui lòng truy cập vào
+    &eDiscord: &a&nhttps://discord.gg/DJdY2RNsK7&e
+    &eGroup: &a&nhttps://facebook.com/groups/noobgownvn
+    &eWebsite: &a&nhttps://luckymcvn.ga
+bungee_switch_banned: |-
+  &cBạn đã bị cấm vào $serverScope! Lý do:
+  $reason
+default_ban_reason: Bạn đã bị cấm khỏi máy chủ!
+default_mute_reason: Bạn đã bị cấm chat tại máy chủ!
+permission_error: '&cBạn không có quyền!'
+muted: '&cBạn đã bị cấm chat! ($duration remaining)!'
+muted_permanent: '&cBạn đã bị cấm chat vĩnh viễn!'
+notify:
+  banned_player_join: '&c$player&f đang cố gắng tham gia máy chủ, nhưng đã bị cấm
+    ($duration)!'
+  banned_geoip_blacklist: '&c$player&f đã cố gắng tham gia máy chủ, nhưng đã bị cấm
+    ip ($geoip)!'
+error_no_reason_provided: '&cBạn phải cung cấp lý do cho hình phạt này!'
+error_no_sql_connection: '&cHệ thống cấm không kết nối được với cơ sở dữ liệu!'
+error_no_uuid_found: '&cNgười chơi không tồn tại.'
+error_console_only: '&cLệnh này chỉ có thể được sử dụng từ bảng điều khiển.'
+internal_error: '&cĐã xảy ra lỗi khi cố gắng thực hiện lệnh này.'
+duration_limit_error: '&cThời lượng tối đa cho phép: $duration'
+warned_join: '&cBạn có cảnh báo mới:'
+warned_join_entry: |-
+  &4 - Bị cảnh báo bởi &c$executor&4: &c$reason
+     &4(&c$timeSince ago&4)
+command:
+  ban:
+    usage: '&cSử dụng: $command [-s] <người chơi> [thời hạn] [lý do]'
+    unban_usage: '&cSử dụng: $command <người chơi>'
+    example: '&cVí dụ: $command <người chơi> 30d [lý do]'
+    silent_prefix: '&f[&7Cấm chat&f] '
+    broadcast_ban: '&c&lCẢNH SÁT > &a&l$bannedPlayer &f&lđã bị khóa tài khoản bởi
+      vì &a&l$reason&f&l!'
+    broadcast_tempban: '&c&lCẢNH SÁT > &a&l$bannedPlayer &f&lđã bị khóa tài khoản
+      tạm thời trong $tempDuration &f&lbởi vì &a&l$reason&f&l!'
+    broadcast_ip_ban: '&c&lCẢNH SÁT > &a&l$bannedPlayer &f&lđã bị khóa IP tài khoản
+      &f&lbởi vì &a&l$reason&f&l!'
+    broadcast_temp_ip_ban: '&c&lCẢNH SÁT > &a&l$bannedIP &f&lđã bị khóa IP tài khoản
+      tạm thời trong $tempDuration bởi vì &a&l$reason&f&l!'
+    broadcast_unban: '&c&lCẢNH SÁT > &f&lĐã gỡ bỏ lệnh khóa tài khoản với &a&l$playerName&f&l!'
+    previous_ban_removed: '&f&lLệnh khóa tài khoản trước đó với &a&l$bannedPlayer
+      &f&lđã bị xóa!'
+    previous_ban_existing: '&c$bannedPlayer &fđã bị khóa tài khoản, và bạn không có
+      quyền thay thế các lệnh cấm hiện có!'
+    unban_queue: '&6Nếu họ cố gắng kết nối lại, họ sẽ bị bỏ cấm'
+    error_no_spec: '&cKhông có thông số thời gian hợp lệ được phát hiện!'
+    unban_fail: '&cMục tiêu không bị cấm!'
+    no_override: '&cNgười chơi đã bị cấm!'
+    exempt: '&cBạn không thể cấm $player!'
+    cooldown: '&cBạn cần phải đợi $seconds giây để tiếp tục sử dụng lệnh này.'
+    response: ''
+  mute:
+    usage: '&cSử dụng: $command <người chơi> [thời hạn] [lý do]'
+    unmute_usage: '&cSử dụng: $command <người chơi>'
+    example: '&cVí dụ: $command <người chơi> 7d [lý do]'
+    broadcast: '&c&lCẢNH SÁT > &f&l$mutedPlayer đã bị khóa chat bởi vì &a&l$reason&f&l!'
+    broadcast_tempmute: '&c&lCẢNH SÁT > &f&l$playerName đã bị khóa chat tạm thời trong
+      $tempDuration bởi vì &a&l$reason&f&l!'
+    broadcast_ip_mute: '&c&lCẢNH SÁT > &f&l$playerName đã bị cấm IP chat bởi vì &a&l$reason&f&l!'
+    broadcast_temp_ip_mute: '&c&lCẢNH SÁT > &f&l$mutedIP đã bị cấm IP chat tạm thời
+      trong $tempDuration &f&lbởi vì &a&l$reason&f&f&l!'
+    message: |-
+      &cBạn đã bị cấm chat bởi vì $reason&c!
+      &cBạn sẽ hết bạn cấm chat sau $duration!
+    message_permanent: |-
+      &cBạn đã bị cấm chat vĩnh viễn bởi vì $reason&c!
+      &cBạn sẽ không hết hạn cấm chat vĩnh viễn!
+    broadcast_unmute: '&c&lCẢNH SÁT > &f&lĐã gỡ bỏ lệnh cấm chat với &a&l$bannedPlayer&f&l!'
+    unmute_fail: '&cMục tiêu không bị cấm chat!'
+    no_override: '&cNgười chơi đã bị cấm chat!'
+    previous_mute_removed: '&aCấm chat $mutedPlayer đã được loại bỏ!'
+    previous_mute_existing: '&c$mutedPlayer đã bị cấm chat, và bạn không có quyền
+      thay thế các lần cấm chat hiện có!'
+    exempt: '&cBạn không thể cấm chat $player!'
+    notification: '&c$mutedPlayer đã có gắng chat nhưng đã bị cấm chat!'
+    error_not_enabled: '&cCấm chat không được bật!'
+    response: ''
+    broadcast_unwarn: '&c&lCẢNH SÁT > &f&lĐã gỡ bỏ lệnh cấm chat với &a&l$bannedPlayer&f&l!'
+  warn:
+    usage: '&cUsage: $command [-s] <player> [reason]'
+    unwarn_usage: '&cUsage: $command <player>'
+    example: ''
+    broadcast: '&a$executor &fwarned &a$warnedPlayer &ffor ''&a$reason&f'''
+    message: |-
+      &cYou have been warned by $executor&c for &c'$reason&c'.
+      &cThis warning will expire in $duration.
+    list_entry: '&f \- Warned by $executor: ''$reason&f'''
+    unwarn_response: '&aLast warning removed for $player.'
+    unwarn_fail: '&cTarget has no warnings!'
+    exempt: '&cYou can''t warn $player!'
+    cooldown: '&cYou need to wait $seconds seconds before you can use this command
+      again.'
+    response: ''
+  history:
+    usage: '&c$command <player> [entries=10]'
+    start: '&aHistory for $target (Limit: $limit):'
+    ban_entry: |-
+      &a -- [&f$timeSince ago&a] --&f
+      &f $name was &cbanned &fby $executor: '&a$reason&f'
+    mute_entry: |-
+      &a -- [&f$timeSince ago&a] --&f
+      &f $name was &7muted &fby $executor: '&a$reason&f'
+    warn_entry: |-
+      &a -- [&f$timeSince ago&a] --&f
+      &f $name was &6warned &fby $executor: '&a$reason&f'
+    kick_entry: |-
+      &a -- [&f$timeSince ago&a] --&f
+      &f $name was &ekicked &fby $executor: '&a$reason&f'
+    unban_entry: |2-
+
+       &f$name was &7unbanned &fby $executor.
+    unmute_entry: |2-
+
+       &f$name was &7unmuted &fby $executor.
+    active_suffix: '&f [&cActive&f]'
+    expired_suffix: '&f [&8Expired&f]'
+    active_suffix_temp: |-
+      &f [&cActive&f]
+      &fExpires in $duration.
+    error_no_history: '&cNo history found.'
+    error_no_user: '&cUser not found.'
+  warnings:
+    usage: '&c$command <player>'
+    start: '&aActive warnings for $target:'
+  prunehistory:
+    usage: '&c$command <player> [duration]'
+    message: '&aHistory pruned.'
+  staffhistory:
+    usage: '&c$command <player> [entries=10]'
+    start: '&aStaff history for $target (Limit: $limit):'
+  staffrollback:
+    usage: '&c$command <player> [duration]'
+    message: '&aRollback completed, total entries removed: $amount'
+  banlist:
+    start: '&f=== &aTrang &6$page&a out of &6$total&f ==='
+  iphistory:
+    usage: '&c$command <player> [entries=10]'
+    start: '&aLogin history for $target (Limit: $limit):'
+    entry: '&a - [&f$date&a]&f $name&a:&f $ip'
+    error_no_history: '&cNo history found.'
+  dupeip:
+    usage: '&c$command <player>'
+    start: '&fQuét &a$name&f trên &a$ip&f. &f[&aOnline&f] [&7Offline&f] [&cBanned&f]'
+    start_no_ip: '&fQuét &7$name&f. &f[&aOnline&f] [&7Offline&f] [&cBanned&f]'
+    separator: '&f, '
+    online: '&a'
+    offline: '&7'
+    banned: '&c'
+    muted: '&6'
+    multiple_addresses: '[$num addresses]'
+  ipreport:
+    start: '&fQuét &a$num&f người chơi trực tuyến... [&aOnline&f] [&7Offline&f] [&cBanned&f]'
+    entry: '&f$player&a: $result'
+  checkban:
+    usage: '&c$command <player>'
+    no_ban: '&cMục tiêu không bị khóa tài khoản!'
+    banned: |-
+      &aMục tiêu $target &fđã bị khóa tài khoản:
+      &aBởi: $executor
+      &aLý do: $reason&a
+      &aVào lúc: $dateStart
+      &aHết hạn: $dateEnd ($duration)
+      &aTrên máy chủ &6&a$serverOrigin&a, phạm vi máy chủ: &6$serverScope
+      &aIP khóa tài khoản: $ipban, silent: $silent, permanent: $permanent
+  checkmute:
+    usage: '&c$command <player>'
+    no_mute: '&cMục tiêu không bị cấm chat!'
+    muted: |-
+      &aMục tiêu $target &fđã bị cấm chat:
+      &aBởi: $executor
+      &aLý do: $reason&r
+      &aVào lúc: $dateStart
+      &aHết hạn: $dateEnd ($duration)
+      &aTrên máy chủ &6$serverOrigin&a, phạm vi máy chủ: &6$serverScope
+      &aIP cấm chat: $ipban, silent: $silent, permanent: $permanent
+  lastuuid:
+    usage: '&c$command <player|IP>'
+    message: '&fLast UUID for &a$name&f: &a$uuid'
+  geoip:
+    usage: '&c$command <player|IP>'
+    message: '&a$target&f is from: &a$result'
+    error_disabled: '&cGeoIP support is not enabled in the configuration!'
+    error_unavailable: '&cGeoIP support is currently unavailable, has it been downloaded
+      yet?'
+    error_not_found: '&cGeoIP information for $target not found.'
+  lockdown:
+    usage: '&c$command <reason> | $command end'
+    message: '&cServer lockdown activated (reason: "$reason&c")'
+    stopped: '&aLockdown has been deactivated.'
+    kick_message: |-
+      Máy chủ đang bảo trì, hãy thử vào lại sau.
+      Lý do: $reason
+    kick_message_global: |-
+      Tính năng khóa mạng đang hoạt động, hãy thử lại sau.
+      Lý do: $reason
+    error_not_active: '&cLockdown is not active!'
+  kick:
+    usage: '&c$command <người chơi> [lý do]'
+    no_match: '&cLỗi: Không tìm thấy người chơi.'
+    kick_requested: '&6Player $player is not online on this server. Cross-server kick
+      has been requested.'
+    message: '&f&lBạn đã bị đuổi bởi vì &a&l$reason&f&l!'
+    message_no_reason: '&f&lBạn đã bị đuổi khỏi máy chủ!'
+    response: '&c&lCẢNH SÁT > &a&l$player &f&lđã bị đuổi!'
+    broadcast: '&c&lCẢNH SÁT > &f&l$player đã bị đuổi bởi vì &a&l$reason&f&l!'
+    broadcast_no_reason: '&c&lCẢNH SÁT > &f&l$player&f đã bị đuổi!'
+    exempt: '&cBạn không thể đuổi $player!'
+  togglechat:
+    toggle_off: '&aChat đã bị tắt.'
+    toggle_on: '&aChat đã được bật.'
+  clearchat:
+    broadcast: '&aChat đã bị xóa.'
+  mutechat:
+    response: '&cChat ở trên máy chủ hiện đã bị tắt!'
+    broadcast_disabled: '&cServer chat has been disabled by $executor.'
+    broadcast_enabled: '&aServer chat has been enabled by $executor.'
+  litebans:
+    reload_success: '&aTải lại thành công.'
+    reload_fail_connect: '&aTải lại. &cKhông kết nối được với cơ sở dữ liệu.'
+    reload_fail: '&cTải lại thất bại.'
+    reload_fail_config: |-
+      &c&lCẢNH SÁT > &4config.yml is not valid and could not be loaded, the default configuration will be used.
+      &cPlease check the server console for more information.
+    reload_fail_messages: |-
+      &c&lCẢNH SÁT > &4messages.yml is not valid and could not be loaded, default messages will be used.
+      &cPlease check the server console for more information.
+    add_history_usage: '&c$command addhistory <name> <UUID> <IP>'
+    add_history: '&aHistory added.'
+    fix_history: '&aFixing history for table $table...'
+    fix_history_result: '&aAdded $amount entries.'
+    fix_history_offline_uuids: '&c$amount UUIDs were not fetched from Mojang since
+      they are offline-mode UUIDs.'
+    import_usage: '&c$command import start'
+    import_start: '&aImporting from $db, this might take a while...'
+    import_finish: '&aImport finished successfully. $bans bans imported, $ipbans IP-bans.'
+    import_finish_litebans: '&aImport finished successfully. Added $amount entries
+      to the database.'
+    import_fail: '&cImport failed. Check console.'
+    import_unsupported: '&cImporting from ''$name'' is not supported yet!'
+duration:
+  expired: hết hạn
+  forever: vĩnh viễn
+  year: năm
+  years: năm
+  month: tháng
+  months: tháng
+  week: tuần
+  weeks: tuần
+  day: ngày
+  days: ngày
+  hour: giờ
+  hours: giờ
+  minute: phút
+  minutes: phút
+  second: giây
+  seconds: giây
+  format: '%d %s'
+  separator: ', '
+strings:
+  global: toàn bộ
+  'null': chưa xác định
+  'true': 'yes'
+  'false': 'no'

@@ -1,0 +1,80 @@
+LastingTime:
+  Enable: true
+  TimeInSeconds: 5
+  SendMsg: true
+  Msg: '&cYour dance will be over in &b&l{sec}&c seconds!'
+Settings:
+  StopDanceWhenWorldChange: true
+  MessageWhenStop: '&c&lYour dance has been stopped as your world has changed!'
+None: None
+WitherRider:
+  Name: WitherRider
+  WitherName: '&ePlayer &b{player} &ethe Wither Rider!'
+  RidingTips1: '&ePlease use &byour mouse &eto control the wither!'
+  RidingTips2: '&ePlease &bclick &eto shoot wither skull!'
+AnvilRain:
+  Name: AnvilRain
+  Title: '&bAnvil Rain!'
+  ClearAnvil: true
+TimeShift:
+  Name: TimeShift
+  Title: '&aTime''s Changing...'
+  SubTitle: '&eYou Are The Winner!'
+YeeHaw:
+  Name: YeeHaw
+  ClearHorse: true
+WarSheep:
+  Name: WarSheep
+  RidingTip: '&ePlease use &byour mouse &eto control the sheep!'
+  SpeedInTicks: 3
+  BlockBreak:
+    WorldWhiteList: false
+    Worlds:
+    - world
+    - test
+FloatingLanterns:
+  Name: FloatingLanterns
+  Tip: '&eSpawning your &bFloating Lanterns &e around you!'
+  LanternTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTRjNzM2ODY0YTY0OWY2NjVmMDRmMjhiYjE0YTNjNGVhMGYyNDVlODQ2MDE3YWNmZTM2NmU3ZDEzNWI0ZmNhOCJ9fX0=
+Fireworks:
+  Name: Fireworks
+  Message: '&eEnjoy your colorful fireworks!'
+  SpawnRadius: 5
+ToyStick:
+  Name: ToyStick
+  Item:
+    Name: '&bToy Stick &7(Click Block)'
+    Lore:
+    - ' '
+    - '&7Click a block to make'
+    - '&7amazing explosion!'
+    - ''
+    - '&eRight/Left click to use!'
+  ExplodeRadius: 5
+  Message: '&aA &bToy Stick&a has been added to your inventory!'
+  BlockBreak:
+    WorldWhiteList: false
+    Worlds:
+    - world
+    - test
+ColdSnap:
+  Name: ColdSnap
+  Sound: NOTE_PLING
+DragonRider:
+  Name: DragonRider
+  DragonName: '&ePlayer &b{player} &ethe Dragon Rider!'
+  RidingTips1: '&ePlease use &byour mouse &eto control the dragon!'
+  RidingTips2: '&ePlease &bclick &eto shoot fireballs!'
+  BlockBreak:
+    WorldWhiteList: false
+    Worlds:
+    - world
+    - test
+DareDevil:
+  Name: DareDevil
+  RidingTip: '&ePlease use &byour mouse &eto control the horse!'
+  BlockBreak:
+    WorldWhiteList: false
+    Worlds:
+    - world
+    - test

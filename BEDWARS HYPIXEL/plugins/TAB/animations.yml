@@ -1,0 +1,8 @@
+#usage: %animation:NAME%  or  {animation:NAME}
+animations:
+  bossbar:
+    change-interval: 100
+    texts:
+      - '&a&lBạn đang chơi tại máy chủ &f&lPLAY.LUCKYMCVN.GA'
+      - '&a&lBạn đang chơi tại máy chủ &b&lPLAY.LUCKYMCVN.GA'
+      - '&a&lBạn đang chơi tại máy chủ &a&lPLAY.LUCKYMCVN.GA'

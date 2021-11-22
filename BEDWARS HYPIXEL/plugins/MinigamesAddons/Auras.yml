@@ -1,0 +1,35 @@
+Settings:
+  EnableAura: true
+  Worlds:
+  - world
+  - test
+  ReverseToDisableWorlds: false
+  AuraSpeed: 7
+  EnableWhiteList: false
+  WhiteList:
+  - GRASS
+  - STONE
+None:
+  UniqueID: 0
+  Name: '&aNone'
+  MenuItem: BARRIER
+DiamondOre:
+  UniqueID: 1
+  Name: '&aDiamondOre'
+  MenuItem: DIAMOND_ORE
+  Material: DIAMOND_ORE
+GoldBlock:
+  UniqueID: 2
+  Name: '&aGoldBlock'
+  MenuItem: GOLD_BLOCK
+  Material: GOLD_BLOCK
+RedStoneOre:
+  UniqueID: 3
+  Name: '&aRedStoneOre'
+  MenuItem: REDSTONE_ORE
+  Material: GLOWING_REDSTONE_ORE
+YourCustomAura:
+  UniqueID: 4
+  Name: '&aCustom Aura'
+  MenuItem: DIAMOND_BLOCK
+  Material: DIAMOND_BLOCK

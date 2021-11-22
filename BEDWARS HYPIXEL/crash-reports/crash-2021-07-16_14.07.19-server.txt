@@ -1,0 +1,34 @@
+---- Minecraft Crash Report ----
+// Sorry :(
+
+Time: 7/16/21 2:07 PM
+Description: Exception in server tick loop
+
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_281, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 119494512 bytes (113 MB) / 954728448 bytes (910 MB) up to 954728448 bytes (910 MB)
+	JVM Flags: 2 total; -Xms512M -Xmx1G
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	CraftBukkit Information: 
+   Running: CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT) false
+   Plugins: { Essentials vTeamCity com.earth2me.essentials.Essentials [Zenexer, ementalo, Aelux, Brettflan, KimKandor, snowleo, ceulemans, Xeology, KHobbits, md_5, Iaccidentally], PlaceholderAPI v2.10.9 me.clip.placeholderapi.PlaceholderAPIPlugin [HelpChat], BedWarsFireballFix v0.2 me.kimovoid.FireballUtil [kimoVoid], ServersNPC v3.1 ak.znetwork.znpcservers.ServersNPC [], VoidSpawn v1.17.0 com.endercrest.voidspawn.VoidSpawn [tcvs], SkinsRestorer v14.1.1 net.skinsrestorer.bukkit.SkinsRestorer [Th3Tr0LLeR, McLive, DoNotSpamPls, knat], FastAsyncWorldEdit v19.07.12-5cc5ce5-1277-22.3.0 com.boydti.fawe.bukkit.BukkitMain [Empire92], FireBallKnockback v2.0 me.metallicgoat.FB.Knockback.Main [MetallicGoat], DeluxeMenus v1.10.5 com.extendedclip.deluxemenus.DeluxeMenus [extended_clip], InteractiveBooks v1.3.4 net.leomixer17.interactivebooks.InteractiveBooks [], PermissionsEx v1.23.4 ru.tehkode.permissions.bukkit.PermissionsEx [[t3hk0d3, zml]], GrapplingHook v2.6 de.keule.gh.main.GHPlugin [Keule2], ViaVersion v4.0.0-21w16a us.myles.ViaVersion.ViaVersionPlugin [_MylesC, creeper123123321, Gerrygames, KennyTV, Matsv], Vault v1.6.1 net.milkbowl.vault.Vault [cereal, Sleaker, mung3r], TokenManager v3.2.5 me.realized.tokenmanager.TokenManagerPlugin [Realized], RandomKB v1.3 shified.ziblaliseg.randomkb.RandomKB [Ziblaliseg], LeakParkour v3.0.7 org.leakparkour.main.LeakParkour [Rafael], WorldEdit v6.1.7-SNAPSHOT;3662-a8d04c2 com.sk89q.worldedit.bukkit.WorldEditPlugin [], Thesieutoc vbuild 8.1 net.thesieutoc.Thesieutoc [], ProtocolLib v4.6.0 com.comphenix.protocol.ProtocolLib [dmulloy2, comphenix], RankCommand v1.4 pw.phineas.rankcommand.Main [Phineas], ajLeaderboards v1.2.9 us.ajg0702.leaderboards.Main [ajgeiss0702], BedWars1058 vgit-c7a25b09-21.2-SNAPSHOT com.andrei1058.bedwars.BedWars [andrei1058], BedWars1058-PopUpTowers v0.5 me.kimovoid.PopUpTowers [kimoVoid], BedWars1058-GenSplit v0.3 me.kimovoid.GenSplit [kimoVoid], GadgetsMenu v4.6.9 com.yapzhenyie.GadgetsMenu.GadgetsMenu [YapZhenYie], HolographicDisplays v2.4.6 com.gmail.filoghost.holographicdisplays.HolographicDisplays [filoghost], LiteBans v2.6.9 litebans.BukkitPlugin [Ruan], BedWars1058-Compass v1.3.1 me.MrIronMan.compass.CompassPlugin [MrIronMan], HolographicExtension v1.10.9 net.kitesoftware.holograms.HolographicExtension [Niall7459], UltraDeliveryMan v1.8.0 io.github.Leonardo0013YT.UltraDeliveryMan.Main [Leonardo0013YT],}
+   Warnings: DEFAULT
+   Reload Count: 0
+   Threads: {
+   Failed to handle CraftCrashReport:
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 50; []
+	Is Modded: Definitely; Server brand changed to 'Spigot'
+	Type: Dedicated Server (map_server.txt)

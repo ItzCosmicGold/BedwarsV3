@@ -1,0 +1,45 @@
+#Plugin MinigamesAddons By HQR
+#Configure The Plugin Here.
+
+#Data Storage Method
+#Defaule is False, which means store data via yml file.
+MySQL:
+  Enable: false
+  Host: localhost
+  Port: 3306
+  Database: minigamesaddons
+  Username: root
+  Password: 'pass'
+#Please set the names of the sounds according to your server version!
+#The original is for 1.8
+Sounds:
+  Success: NOTE_PIANO
+  Error: ENDERMAN_TELEPORT
+  Click: CLICK
+  Firework: FIREWORK_LAUNCH
+  Lightning: AMBIENCE_THUNDER
+  Explosion: EXPLODE
+#Soft dependencies(Minigames plugins) config
+#Once one of the following config is enabled, the normal KillEffect and VictoryDances won't be available anymore!
+#This feature is in HUGE DEVELOPMENT! So if you find bug pls report to the author via Discord! Thx :)
+SoftDepend:
+  BedWars1058:
+    FinalKillEffect: true
+    VictoryDances: true
+    ShopkeeperSkins: true
+  BedwarsRel:
+    KillEffect: false
+    VictoryDances: false
+  ScreamingBW:
+    KillEffect: false
+    VictoryDances: false
+  LostBedWars:
+    FinalKillEffect: false
+    VictoryDances: false
+  #WARNING: Do NOT use both Free and Premium version at the same time!
+  LostSkyWars-Free:
+    KillEffect: false
+    VictoryDances: false
+  LostSkyWars-Premium:
+    KillEffect: false
+    VictoryDances: false

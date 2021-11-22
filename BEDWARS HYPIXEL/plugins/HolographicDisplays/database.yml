@@ -1,0 +1,174 @@
+levels:
+  location: world, -10.530, 76, -28.699
+  lines:
+  - '&b&lBed Wars Levels'
+  - ''
+  - '&e1. &f%ajleaderboards_board_bw1058_player_level_raw_1_suffix%%ajleaderboards_board_bw1058_player_level_raw_1_name%%ajleaderboards_board_bw1058_player_level_raw_1_suffix%
+    &7- &e%ajleaderboards_board_bw1058_player_level_raw_1_value%'
+  - ''
+  - '&e2. &f%ajleaderboards_board_bw1058_player_level_raw_2_suffix%%ajleaderboards_board_bw1058_player_level_raw_2_name%%ajleaderboards_board_bw1058_player_level_raw_1_suffix%
+    &7- &e%ajleaderboards_board_bw1058_player_level_raw_2_value%'
+  - ''
+  - '&e3. &f%ajleaderboards_board_bw1058_player_level_raw_3_suffix%%ajleaderboards_board_bw1058_player_level_raw_3_name%%ajleaderboards_board_bw1058_player_level_raw_1_suffix%
+    &7- &e%ajleaderboards_board_bw1058_player_level_raw_3_value%'
+  - ''
+  - '&e4. &f%ajleaderboards_board_bw1058_player_level_raw_4_suffix%%ajleaderboards_board_bw1058_player_level_raw_4_name%%ajleaderboards_board_bw1058_player_level_raw_1_suffix%
+    &7- &e%ajleaderboards_board_bw1058_player_level_raw_4_value%'
+  - ''
+  - '&e5. &f%ajleaderboards_board_bw1058_player_level_raw_5_suffix%%ajleaderboards_board_bw1058_player_level_raw_5_name%%ajleaderboards_board_bw1058_player_level_raw_1_suffix%
+    &7- &e%ajleaderboards_board_bw1058_player_level_raw_5_value%'
+  - ''
+  - '&e6. &f%ajleaderboards_board_bw1058_player_level_raw_6_suffix%%ajleaderboards_board_bw1058_player_level_raw_6_name%%ajleaderboards_board_bw1058_player_level_raw_1_suffix%
+    &7- &e%ajleaderboards_board_bw1058_player_level_raw_6_value%'
+  - ''
+  - '&e7. &f%ajleaderboards_board_bw1058_player_level_raw_7_suffix%%ajleaderboards_board_bw1058_player_level_raw_7_name%%ajleaderboards_board_bw1058_player_level_raw_1_suffix%
+    &7- &e%ajleaderboards_board_bw1058_player_level_raw_7_value%'
+  - ''
+  - '&e8. &f%ajleaderboards_board_bw1058_player_level_raw_8_suffix%%ajleaderboards_board_bw1058_player_level_raw_8_name%%ajleaderboards_board_bw1058_player_level_raw_1_suffix%
+    &7- &e%ajleaderboards_board_bw1058_player_level_raw_8_value%'
+  - ''
+  - '&e9. &f%ajleaderboards_board_bw1058_player_level_raw_9_suffix%%ajleaderboards_board_bw1058_player_level_raw_9_name%%ajleaderboards_board_bw1058_player_level_raw_1_suffix%
+    &7- &e%ajleaderboards_board_bw1058_player_level_raw_9_value%'
+  - ''
+  - '&e10. &f%ajleaderboards_board_bw1058_player_level_raw_10_suffix%%ajleaderboards_board_bw1058_player_level_raw_10_name%%ajleaderboards_board_bw1058_player_level_raw_1_suffix%
+    &7- &e%ajleaderboards_board_bw1058_player_level_raw_10_value%'
+wins:
+  location: world, -4.500, 76.2, -28.500
+  lines:
+  - '&b&lLifetime Wins'
+  - '&7All modes'
+  - ''
+  - '&e1. &f%ajleaderboards_board_bw1058_stats_wins_1_suffix%%ajleaderboards_board_bw1058_stats_wins_1_name%%ajleaderboards_board_bw1058_stats_wins_1_suffix%
+    &7- &e%ajleaderboards_board_bw1058_stats_wins_1_value%'
+  - ''
+  - '&e2. &f%ajleaderboards_board_bw1058_stats_wins_2_suffix%%ajleaderboards_board_bw1058_stats_wins_2_name%%ajleaderboards_board_bw1058_stats_wins_2_suffix%
+    &7- &e%ajleaderboards_board_bw1058_stats_wins_2_value%'
+  - ''
+  - '&e3. &f%ajleaderboards_board_bw1058_stats_wins_3_suffix%%ajleaderboards_board_bw1058_stats_wins_3_name%%ajleaderboards_board_bw1058_stats_wins_3_suffix%
+    &7- &e%ajleaderboards_board_bw1058_stats_wins_3_value%'
+  - ''
+  - '&e4. &f%ajleaderboards_board_bw1058_stats_wins_4_suffix%%ajleaderboards_board_bw1058_stats_wins_4_name%%ajleaderboards_board_bw1058_stats_wins_4_suffix%
+    &7- &e%ajleaderboards_board_bw1058_stats_wins_4_value%'
+  - ''
+  - '&e5. &f%ajleaderboards_board_bw1058_stats_wins_5_suffix%%ajleaderboards_board_bw1058_stats_wins_5_name%%ajleaderboards_board_bw1058_stats_wins_5_suffix%
+    &7- &e%ajleaderboards_board_bw1058_stats_wins_5_value%'
+  - ''
+  - '&e6. &f%ajleaderboards_board_bw1058_stats_wins_6_suffix%%ajleaderboards_board_bw1058_stats_wins_6_name%%ajleaderboards_board_bw1058_stats_wins_6_suffix%
+    &7- &e%ajleaderboards_board_bw1058_stats_wins_6_value%'
+  - ''
+  - '&e7. &f%ajleaderboards_board_bw1058_stats_wins_7_suffix%%ajleaderboards_board_bw1058_stats_wins_7_name%%ajleaderboards_board_bw1058_stats_wins_7_suffix%
+    &7- &e%ajleaderboards_board_bw1058_stats_wins_7_value%'
+  - ''
+  - '&e8. &f%ajleaderboards_board_bw1058_stats_wins_8_suffix%%ajleaderboards_board_bw1058_stats_wins_8_name%%ajleaderboards_board_bw1058_stats_wins_8_suffix%
+    &7- &e%ajleaderboards_board_bw1058_stats_wins_8_value%'
+  - ''
+  - '&e9. &f%ajleaderboards_board_bw1058_stats_wins_9_suffix%%ajleaderboards_board_bw1058_stats_wins_9_name%%ajleaderboards_board_bw1058_stats_wins_9_suffix%
+    &7- &e%ajleaderboards_board_bw1058_stats_wins_9_value%'
+  - ''
+  - '&e10. &f%ajleaderboards_board_bw1058_stats_wins_10_suffix%%ajleaderboards_board_bw1058_stats_wins_10_name%%ajleaderboards_board_bw1058_stats_wins_10_suffix%
+    &7- &e%ajleaderboards_board_bw1058_stats_wins_10_value%'
+kills:
+  location: world, 1.500, 76.2, -28.500
+  lines:
+  - '&b&lLifetime Kills'
+  - '&7All modes'
+  - ''
+  - '&e1. &f%ajleaderboards_board_bw1058_stats_kills_1_suffix%%ajleaderboards_board_bw1058_stats_kills_1_name%%ajleaderboards_board_bw1058_stats_kills_1_suffix%
+    &7- &e%ajleaderboards_board_bw1058_stats_kills_1_value%'
+  - ''
+  - '&e2. &f%ajleaderboards_board_bw1058_stats_kills_2_suffix%%ajleaderboards_board_bw1058_stats_kills_2_name%%ajleaderboards_board_bw1058_stats_kills_2_suffix%
+    &7- &e%ajleaderboards_board_bw1058_stats_kills_2_value%'
+  - ''
+  - '&e3. &f%ajleaderboards_board_bw1058_stats_kills_3_suffix%%ajleaderboards_board_bw1058_stats_kills_3_name%%ajleaderboards_board_bw1058_stats_kills_3_suffix%
+    &7- &e%ajleaderboards_board_bw1058_stats_kills_3_value%'
+  - ''
+  - '&e4. &f%ajleaderboards_board_bw1058_stats_kills_4_suffix%%ajleaderboards_board_bw1058_stats_kills_4_name%%ajleaderboards_board_bw1058_stats_kills_4_suffix%
+    &7- &e%ajleaderboards_board_bw1058_stats_kills_4_value%'
+  - ''
+  - '&e5. &f%ajleaderboards_board_bw1058_stats_kills_5_suffix%%ajleaderboards_board_bw1058_stats_kills_5_name%%ajleaderboards_board_bw1058_stats_kills_5_suffix%
+    &7- &e%ajleaderboards_board_bw1058_stats_kills_5_value%'
+  - ''
+  - '&e6. &f%ajleaderboards_board_bw1058_stats_kills_6_suffix%%ajleaderboards_board_bw1058_stats_kills_6_name%%ajleaderboards_board_bw1058_stats_kills_6_suffix%
+    &7- &e%ajleaderboards_board_bw1058_stats_kills_6_value%'
+  - ''
+  - '&e7. &f%ajleaderboards_board_bw1058_stats_kills_7_suffix%%ajleaderboards_board_bw1058_stats_kills_7_name%%ajleaderboards_board_bw1058_stats_kills_7_suffix%
+    &7- &e%ajleaderboards_board_bw1058_stats_kills_7_value%'
+  - ''
+  - '&e8. &f%ajleaderboards_board_bw1058_stats_kills_8_suffix%%ajleaderboards_board_bw1058_stats_kills_8_name%%ajleaderboards_board_bw1058_stats_kills_8_suffix%
+    &7- &e%ajleaderboards_board_bw1058_stats_kills_8_value%'
+  - ''
+  - '&e9. &f%ajleaderboards_board_bw1058_stats_kills_9_suffix%%ajleaderboards_board_bw1058_stats_kills_9_name%%ajleaderboards_board_bw1058_stats_kills_9_suffix%
+    &7- &e%ajleaderboards_board_bw1058_stats_kills_9_value%'
+  - ''
+  - '&e10. &f%ajleaderboards_board_bw1058_stats_kills_10_suffix%%ajleaderboards_board_bw1058_stats_kills_10_name%%ajleaderboards_board_bw1058_stats_kills_10_suffix%
+    &7- &e%ajleaderboards_board_bw1058_stats_kills_10_value%'
+solo:
+  location: world, -0.500, 71.4, -8.500
+  lines:
+  - '&e&lCLICK TO PLAY'
+  - ''
+  - '&bSolo &7[1.0]'
+  - ''
+  - '{fastest}&e&l%bw1058_group_count_Solo% Players'
+doubles:
+  location: world, 1.500, 71.4, -5.500
+  lines:
+  - '&e&lCLICK TO PLAY'
+  - ''
+  - '&bDoubles &7[1.0]'
+  - ''
+  - '{fastest}&e&l%bw1058_group_count_Doubles% Players'
+3v3v3v3:
+  location: world, 3.500, 71.4, -2.500
+  lines:
+  - '&e&lCLICK TO PLAY'
+  - ''
+  - '&b3v3v3v3 &7[1.0]'
+  - ''
+  - '{fastest}&e&l%bw1058_group_count_3v3v3v3% Players'
+4v4v4v4:
+  location: world, 3.500, 71.4, 3.500
+  lines:
+  - '&e&lCLICK TO PLAY'
+  - ''
+  - '&b4v4v4v4 &7[1.0]'
+  - ''
+  - '{fastest}&e&l%bw1058_group_count_4v4v4v4% Players'
+shop:
+  location: world, 15.500, 71.5, 17.500
+  lines:
+  - '&bIngame Store'
+  - '&e&lRIGHT CLICK'
+stats:
+  location: world, 2.500, 72.4, -13.500
+  lines:
+  - §6§lYour Bed Wars Profile
+  - ''
+  - '&fYour Level: %bw1058_player_level%'
+  - ''
+  - '&fProgress: &b%bw1058_player_xp_formatted%&7/&a%bw1058_player_rerq_xp_formatted%'
+  - ''
+  - '%bw1058_player_progress%'
+  - ''
+  - '&fTotal Wins: &a%bw1058_stats_wins%'
+  - ''
+  - '&fTotal Losses: &a%bw1058_stats_losses%'
+  - ''
+  - §e§lCLICK FOR STATS
+deliveryman:
+  location: world, -5.500, 70.1, -5.500
+  lines:
+  - '{fast}%randomcolor_selected_c,f%i%udm_rewards% Rewards!'
+  - ''
+  - '&bThe Delivery Man'
+  - '&e&lRIGHT CLICK'
+quest:
+  location: world, -8.500, 69.868, 10.500
+  lines:
+  - '&bQuest Master'
+  - '&e&lRIGHT CLICK'
+shopkeeper:
+  location: world, 10.500, 69.6, 0.500
+  lines:
+  - '&e&lRIGHT CLICK'
+  - '&bShopkeeper'

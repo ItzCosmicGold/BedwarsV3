@@ -1,0 +1,362 @@
+Minecraft
+    ** Full Server Tick Time: 1652403600 Count: 2001 Avg: 825788 Violations: 0
+    Player List Time: 316300 Count: 2002 Avg: 157 Violations: 0
+    Connection Handler Time: 70871400 Count: 2002 Avg: 35400 Violations: 0
+    Tickables Time: 255800 Count: 2002 Avg: 127 Violations: 0
+    Scheduler Time: 145197700 Count: 2002 Avg: 72526 Violations: 0
+    ChunkIOTick Time: 750000 Count: 2002 Avg: 374 Violations: 0
+    Time Update Time: 4804200 Count: 2002 Avg: 2399 Violations: 0
+    Server Command Time: 679700 Count: 2002 Avg: 339 Violations: 0
+    ** entityMove Time: 20371000 Count: 2021 Avg: 10079 Violations: 0
+    ** tickEntity Time: 93577300 Count: 224224 Avg: 417 Violations: 0
+    ** activatedTickEntity Time: 52406400 Count: 224224 Avg: 233 Violations: 0
+    ** tickTileEntity Time: 20074900 Count: 38038 Avg: 527 Violations: 0
+    ** livingEntityBaseTick Time: 32373100 Count: 8028 Avg: 4032 Violations: 0
+    ** livingEntityAI Time: 4514600 Count: 8028 Avg: 562 Violations: 0
+    ** livingEntityAICollision Time: 4044300 Count: 8028 Avg: 503 Violations: 0
+    ** livingEntityAIMove Time: 33556200 Count: 8028 Avg: 4179 Violations: 0
+    ** livingEntityTickRest Time: 2019500 Count: 8028 Avg: 251 Violations: 0
+    processQueue Time: 658600 Count: 2002 Avg: 328 Violations: 0
+    ** Plugins Time: 2294600 Count: 242 Avg: 9481 Violations: 0
+    ** Scheduler - Sync Tasks Time: 119995600 Count: 10599 Avg: 11321 Violations: 0
+    ** playerCommand Time: 7659500 Count: 2 Avg: 3829750 Violations: 0
+    entityActivationCheck Time: 41557100 Count: 4004 Avg: 10378 Violations: 0
+    ** checkIfActive Time: 21107900 Count: 224224 Avg: 94 Violations: 0
+    ** Command: timings Time: 7105400 Count: 2 Avg: 3552700 Violations: 0
+    Task: FastAsyncWorldEdit v19.07.12-5cc5ce5-1277-22.3.0 Runnable: com.boydti.fawe.util.FaweTimer(interval:1) Time: 2178500 Count: 2002 Avg: 1088 Violations: 0
+    Plugin: FastAsyncWorldEdit v19.07.12-5cc5ce5-1277-22.3.0 Event: com.boydti.fawe.bukkit.listener.BrushListener::onPlayerMove(PlayerMoveEvent) Time: 229100 Count: 23 Avg: 9960 Violations: 0
+    Task: ProtocolLib v4.6.0 Runnable: com.comphenix.protocol.ProtocolLib$3(interval:1) Time: 14709200 Count: 2002 Avg: 7347 Violations: 0
+    Plugin: BedWars1058 vgit-c7a25b09-21.2-SNAPSHOT Event: com.andrei1058.bedwars.listeners.BreakPlace::onCactus(BlockPhysicsEvent) Time: 37200 Count: 6 Avg: 6200 Violations: 0
+    Plugin: BedWars1058 vgit-c7a25b09-21.2-SNAPSHOT Event: com.andrei1058.bedwars.listeners.DamageDeathMove::onMove(PlayerMoveEvent) Time: 283400 Count: 23 Avg: 12321 Violations: 0
+    Plugin: BedWars1058 vgit-c7a25b09-21.2-SNAPSHOT Event: com.andrei1058.bedwars.listeners.CmdProcess::onCmd(PlayerCommandPreprocessEvent) Time: 37300 Count: 3 Avg: 12433 Violations: 0
+    Plugin: BedWars1058 vgit-c7a25b09-21.2-SNAPSHOT Event: com.andrei1058.bedwars.arena.upgrades.BaseListener::onPlayerMove(PlayerMoveEvent) Time: 53900 Count: 23 Avg: 2343 Violations: 0
+    Task: BedWars1058 vgit-c7a25b09-21.2-SNAPSHOT Runnable: com.andrei1058.bedwars.arena.tasks.Refresh(interval:20) Time: 488500 Count: 100 Avg: 4885 Violations: 0
+    Task: BedWars1058 vgit-c7a25b09-21.2-SNAPSHOT Runnable: com.andrei1058.bedwars.arena.tasks.OneTick(interval:1) Time: 3914400 Count: 2002 Avg: 1955 Violations: 0
+    Task: BedWars1058 vgit-c7a25b09-21.2-SNAPSHOT Runnable: com.andrei1058.bedwars.sidebar.SidebarListRefresh(interval:1200) Time: 179700 Count: 2 Avg: 89850 Violations: 0
+    Task: BedWars1058 vgit-c7a25b09-21.2-SNAPSHOT Runnable: com.andrei1058.bedwars.sidebar.SidebarPlaceholderRefresh(interval:20) Time: 11721400 Count: 100 Avg: 117214 Violations: 0
+    Task: BedWars1058 vgit-c7a25b09-21.2-SNAPSHOT Runnable: com.andrei1058.bedwars.sidebar.SidebarLifeRefresh(interval:300) Time: 74100 Count: 7 Avg: 10585 Violations: 0
+    xray - update Time: 11700 Count: 1 Avg: 11700 Violations: 0
+    ** world - doChunkUnload Time: 4293400 Count: 2002 Avg: 2144 Violations: 0
+    ** world - doTickPending Time: 1744200 Count: 2002 Avg: 871 Violations: 0
+    ** world - doTickTiles Time: 382262100 Count: 2002 Avg: 190940 Violations: 0
+    ** world - doVillages Time: 2345800 Count: 2002 Avg: 1171 Violations: 0
+    ** world - doChunkMap Time: 1457300 Count: 2002 Avg: 727 Violations: 0
+    ** world - doPortalForcer Time: 783000 Count: 2002 Avg: 391 Violations: 0
+    ** world - entityTick Time: 109679600 Count: 2002 Avg: 54785 Violations: 0
+    ** world - tileEntityTick Time: 26987200 Count: 2002 Avg: 13480 Violations: 0
+    ** world - tileEntityPending Time: 136500 Count: 2002 Avg: 68 Violations: 0
+    world - tracker Time: 42604600 Count: 2002 Avg: 21281 Violations: 0
+    world - doTick Time: 403760700 Count: 2002 Avg: 201678 Violations: 0
+    world - tickEntities Time: 140600900 Count: 2002 Avg: 70230 Violations: 0
+    ** tickTileEntity - TileEntityEnderChest Time: 1773300 Count: 6006 Avg: 295 Violations: 0
+    ** tickTileEntity - TileEntityChest Time: 1709600 Count: 6006 Avg: 284 Violations: 0
+    ** tickTileEntity - TileEntityFurnace Time: 2101100 Count: 2002 Avg: 1049 Violations: 0
+    ** tickTileEntity - TileEntityHopper Time: 13597500 Count: 24024 Avg: 565 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.EssentialsPlayerListener::onPlayerMove(PlayerMoveEvent) Time: 93800 Count: 23 Avg: 4078 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.EssentialsPlayerListener::onPlayerCommandPreprocess(PlayerCommandPreprocessEvent) Time: 41600 Count: 3 Avg: 13866 Violations: 0
+    Task: Essentials vTeamCity Runnable: com.earth2me.essentials.EssentialsTimer(interval:50) Time: 1646600 Count: 40 Avg: 41165 Violations: 0
+    Task: ServersNPC v3.2 Runnable: ak.znetwork.znpcservers.tasks.NPCSaveTask(interval:600) Time: 6071900 Count: 4 Avg: 1517975 Violations: 0
+    Plugin: VoidSpawn v1.17.0 Event: com.endercrest.voidspawn.MoveListener::onMoveEvent(PlayerMoveEvent) Time: 309400 Count: 23 Avg: 13452 Violations: 0
+    Plugin: VoidSpawn v1.17.0 Event: com.endercrest.voidspawn.VoidListener::onMoveEvent(PlayerMoveEvent) Time: 309200 Count: 23 Avg: 13443 Violations: 0
+    Task: SkinsRestorer v14.1.1 Runnable: net.skinsrestorer.shade.acf.BukkitCommandManager$$Lambda$298/1563638351(interval:5) Time: 13767100 Count: 400 Avg: 34417 Violations: 0
+    Plugin: DeluxeMenus v1.10.5 Event: com.extendedclip.deluxemenus.PlayerListener::onCommandExecute(PlayerCommandPreprocessEvent) Time: 27300 Count: 3 Avg: 9100 Violations: 0
+    Plugin: InteractiveBooks v1.3.4 Event: net.leomixer17.interactivebooks.PlayerListener::onPlayerCommandPreprocess(PlayerCommandPreprocessEvent) Time: 49600 Count: 3 Avg: 16533 Violations: 0
+    Plugin: RandomKB v1.3 Event: shified.ziblaliseg.randomkb.DamageListener::PlayerToggleSprint(PlayerToggleSprintEvent) Time: 16600 Count: 2 Avg: 8300 Violations: 0
+    Plugin: LeakParkour v3.0.7 Event: org.leakparkour.listener.parkour.EventParkourCommand::a(PlayerCommandPreprocessEvent) Time: 9500 Count: 3 Avg: 3166 Violations: 0
+    Plugin: LeakParkour v3.0.7 Event: org.leakparkour.listener.parkour.EventParkourMove::a(PlayerMoveEvent) Time: 201800 Count: 23 Avg: 8773 Violations: 0
+    Plugin: WorldEdit v6.1.7-SNAPSHOT;3662-a8d04c2 Event: com.sk89q.worldedit.bukkit.WorldEditListener::onPlayerCommandPreprocess(PlayerCommandPreprocessEvent) Time: 83100 Count: 3 Avg: 27700 Violations: 0
+    Plugin: TAB v2.6.5 Event: me.neznamy.tab.platforms.bukkit.Main::a(PlayerCommandPreprocessEvent) Time: 17400 Count: 3 Avg: 5800 Violations: 0
+    Plugin: GadgetsMenu v4.6.9 Event: com.yapzhenyie.GadgetsMenu.listeners.PlayerListener::onExecuteCommand(PlayerCommandPreprocessEvent) Time: 16600 Count: 3 Avg: 5533 Violations: 0
+    Plugin: GadgetsMenu v4.6.9 Event: com.yapzhenyie.GadgetsMenu.listeners.PlayerListener::onPlayerMove(PlayerMoveEvent) Time: 201400 Count: 23 Avg: 8756 Violations: 0
+    Plugin: GadgetsMenu v4.6.9 Event: com.yapzhenyie.GadgetsMenu.listeners.RenamePetListener::onPlayerRenamePet(PlayerCommandPreprocessEvent) Time: 10200 Count: 3 Avg: 3400 Violations: 0
+    Plugin: GadgetsMenu v4.6.9 Event: com.yapzhenyie.GadgetsMenu.listeners.cosmetics.CommandProcessListener::onPlayerExecuteCommands(PlayerCommandPreprocessEvent) Time: 6000 Count: 3 Avg: 2000 Violations: 0
+    Task: GadgetsMenu v4.6.9 Runnable: com.yapzhenyie.GadgetsMenu.tasks.UpdateHolograms(interval:10) Time: 1163900 Count: 200 Avg: 5819 Violations: 0
+    Task: GadgetsMenu v4.6.9 Runnable: com.yapzhenyie.GadgetsMenu.tasks.UpdateIndividualHologram(interval:12) Time: 3945500 Count: 167 Avg: 23625 Violations: 0
+    Task: HolographicDisplays v2.4.6 Runnable: com.gmail.filoghost.holographicdisplays.placeholder.PlaceholdersManager$$Lambda$405/557475470(interval:2) Time: 16714100 Count: 1001 Avg: 16697 Violations: 0
+    Task: HolographicDisplays v2.4.6 Runnable: com.gmail.filoghost.holographicdisplays.bridge.bungeecord.BungeeServerTracker$$Lambda$406/656562663(interval:60) Time: 78500 Count: 33 Avg: 2378 Violations: 0
+    Task: HolographicDisplays v2.4.6 Runnable: com.gmail.filoghost.holographicdisplays.task.WorldPlayerCounterTask(interval:60) Time: 757800 Count: 33 Avg: 22963 Violations: 0
+    Plugin: LiteBans v2.6.9 Event: litebans.g_::a(PlayerCommandPreprocessEvent) Time: 167200 Count: 3 Avg: 55733 Violations: 0
+    Plugin: UltraDeliveryMan v1.8.0 Event: io.github.Leonardo0013YT.UltraDeliveryMan.listeners.PlayerListener::onMove(PlayerMoveEvent) Time: 125000 Count: 23 Avg: 5434 Violations: 0
+    ** tickEntity - EntityNMSArmorStand Time: 34125800 Count: 222222 Avg: 153 Violations: 0
+    Task: Visible-Players v3.1.9 Runnable: ruben_artz.bukkit.Visible.BPMain$$Lambda$428/1543016062(interval:20) Time: 523600 Count: 100 Avg: 5236 Violations: 0
+    Task: ViaVersion v4.0.1 Runnable: com.viaversion.viaversion.protocols.protocol1_9to1_8.ViaIdleThread(interval:1) Time: 10002300 Count: 2002 Avg: 4996 Violations: 0
+    Plugin: FastAsyncWorldEdit v19.07.12-5cc5ce5-1277-22.3.0 Event: com.boydti.fawe.bukkit.v0.ChunkListener_8::onPhysics(BlockPhysicsEvent) Time: 14200 Count: 6 Avg: 2366 Violations: 0
+    Task: FastAsyncWorldEdit v19.07.12-5cc5ce5-1277-22.3.0 Runnable: com.boydti.fawe.bukkit.v0.ChunkListener$1(interval:20) Time: 749500 Count: 100 Avg: 7495 Violations: 0
+    Task: PlaceholderAPI v2.10.9 Runnable: com.extendedclip.papi.bungeeexpansion.BungeeCordExpansion$1(interval:600) Time: 97000 Count: 4 Avg: 24250 Violations: 0
+    ** acropolis1v1 - mobSpawn Time: 341161200 Count: 2002 Avg: 170410 Violations: 0
+    ** acropolis1v1 - doChunkUnload Time: 2449000 Count: 2002 Avg: 1223 Violations: 0
+    ** acropolis1v1 - doTickPending Time: 863700 Count: 2002 Avg: 431 Violations: 0
+    ** acropolis1v1 - doTickTiles Time: 266474700 Count: 2002 Avg: 133104 Violations: 0
+    ** acropolis1v1 - doVillages Time: 1103900 Count: 2002 Avg: 551 Violations: 0
+    ** acropolis1v1 - doChunkMap Time: 1176400 Count: 2002 Avg: 587 Violations: 0
+    ** acropolis1v1 - doPortalForcer Time: 373400 Count: 2002 Avg: 186 Violations: 0
+    ** acropolis1v1 - entityTick Time: 14461400 Count: 2002 Avg: 7223 Violations: 0
+    ** acropolis1v1 - tileEntityTick Time: 257000 Count: 2002 Avg: 128 Violations: 0
+    ** acropolis1v1 - tileEntityPending Time: 85400 Count: 2002 Avg: 42 Violations: 0
+    acropolis1v1 - tracker Time: 1615700 Count: 2002 Avg: 807 Violations: 0
+    acropolis1v1 - doTick Time: 620975400 Count: 2002 Avg: 310177 Violations: 0
+    acropolis1v1 - tickEntities Time: 56956800 Count: 2002 Avg: 28449 Violations: 0
+    ** tickEntity - EntityPlayer Time: 12987200 Count: 2002 Avg: 6487 Violations: 0
+    Task: Hau_DeepTry v1.0.0 Runnable: com.HauvongMC.BossBarAPI(interval:20) Time: 3503900 Count: 100 Avg: 35039 Violations: 0
+    Task: Hau_DeepTry v1.0.0 Runnable: com.HauvongMC.Main$Event$2(interval:10) Time: 27335000 Count: 200 Avg: 136675 Violations: 0
+# Version git-Spigot-db6de12-18fbb24 (MC: 1.8.8)
+# Entities 112
+# LivingEntities 112
+Sample time 101106328900 (101.1063289s)
+<spigotConfig>
+# This is the main configuration file for Spigot.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# For a reference for any variable inside this file, check out the Spigot wiki at
+# http://www.spigotmc.org/wiki/spigot-configuration/
+# 
+# If you need help with the configuration or have any questions related to Spigot,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
+# Forums: http://www.spigotmc.org/
+
+config-version: 8
+messages:
+  whitelist: You are not whitelisted on this server!
+  unknown-command: Unknown command. Type "/help" for help.
+  server-full: The server is full!
+  outdated-client: Outdated client! Please use {0}
+  outdated-server: Outdated server! I'm still on {0}
+  restart: Server is restarting
+commands:
+  tab-complete: 0
+  silent-commandblock-console: false
+  spam-exclusions:
+  - /skill
+  log: true
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  send-namespaced: false
+settings:
+  save-user-cache-on-stop-only: false
+  filter-creative-items: true
+  moved-too-quickly-threshold: 100.0
+  moved-wrongly-threshold: 0.0625
+  user-cache-size: 1000
+  player-shuffle: 0
+  bungeecord: false
+  int-cache-limit: 1024
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
+  late-bind: false
+  sample-count: 12
+  netty-threads: 4
+  attribute:
+    maxHealth:
+      max: 2048.0
+    movementSpeed:
+      max: 2048.0
+    attackDamage:
+      max: 2048.0
+  debug: false
+  baby-zombie-movement-speed: 0.5
+  limit-player-interactions: true
+  allow-end: false
+  warn-on-overload: true
+  permissions-file: permissions.yml
+  update-folder: update
+  plugin-profiling: false
+  connection-throttle: 4000
+  query-plugins: true
+  deprecated-verbose: default
+  shutdown-message: Server closed
+stats:
+  disable-saving: false
+  forced-stats: {}
+world-settings:
+  default:
+    verbose: true
+    item-despawn-rate: 6000
+    merge-radius:
+      item: 2.5
+      exp: 3.0
+    enable-zombie-pigmen-portal-spawns: true
+    arrow-despawn-rate: 1200
+    view-distance: 10
+    wither-spawn-sound-radius: 0
+    hanging-tick-frequency: 100
+    zombie-aggressive-towards-villager: true
+    anti-xray:
+      enabled: true
+      engine-mode: 1
+      hide-blocks:
+      - 14
+      - 15
+      - 16
+      - 21
+      - 48
+      - 49
+      - 54
+      - 56
+      - 73
+      - 74
+      - 82
+      - 129
+      - 130
+      replace-blocks:
+      - 1
+      - 5
+    nerf-spawner-mobs: false
+    mob-spawn-range: 4
+    max-tick-time:
+      tile: 50
+      entity: 50
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    max-bulk-chunks: 10
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 100
+    save-structure-info: true
+    hunger:
+      walk-exhaustion: 0.2
+      sprint-exhaustion: 0.8
+      combat-exhaustion: 0.3
+      regen-exhaustion: 3.0
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 8
+    hopper-amount: 1
+    max-tnt-per-tick: 100
+    random-light-updates: false
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+    chunks-per-tick: 650
+    clear-tick-list: false
+    seed-village: 10387312
+    seed-feature: 14357617
+    max-entity-collisions: 8
+    dragon-death-sound-radius: 0
+    disable-explosion-knockback: false
+    tnt-entity-height-nerf: 0
+    water-over-lava-flow-speed: 5
+    fix-cannons: false
+    portal-search-radius: 128
+    falling-blocks-collide-with-signs: false
+    disable-mood-sounds: false
+    keep-spawn-loaded: true
+    disable-ice-and-snow: false
+    remove-invalid-mob-spawner-tile-entities: true
+    disable-thunder: false
+    tick-next-tick-list-cap: 10000
+    tick-next-tick-list-cap-ignores-redstone: false
+    use-async-lighting: false
+    allow-block-location-tab-completion: true
+    generator-settings:
+      canyon: true
+      caves: true
+      dungeon: true
+      fortress: true
+      mineshaft: true
+      monument: true
+      stronghold: true
+      temple: true
+      village: true
+      flat-bedrock: false
+    use-hopper-check: false
+    disable-teleportation-suffocation-check: false
+    container-update-tick-rate: 1
+    all-chunks-are-slime-chunks: false
+    game-mechanics:
+      disable-end-credits: false
+      boats-drop-boats: false
+      disable-player-crits: false
+      disable-chest-cat-detection: false
+    allow-undead-horse-leashing: false
+    cache-chunk-maps: false
+    despawn-ranges:
+      soft: 32
+      hard: 128
+    remove-unloaded:
+      enderpearls: true
+      tnt-entities: true
+      falling-blocks: true
+    lava-flow-speed:
+      normal: 30
+      nether: 10
+    fast-drain:
+      lava: false
+      water: false
+    load-chunks:
+      enderpearls: false
+      tnt-entities: false
+      falling-blocks: false
+    player-exhaustion:
+      block-break: 0.02500000037252903
+      swimming: 0.014999999664723873
+    squid-spawn-height:
+      minimum: 45.0
+      maximum: 63.0
+    fishing-time-range:
+      MinimumTicks: 100
+      MaximumTicks: 900
+    falling-block-height-nerf: 0
+    nether-ceiling-void-damage: false
+    tnt-explosion-volume: 4.0
+    max-growth-height:
+      cactus: 3
+      reeds: 3
+    mob-spawner-tick-rate: 1
+    optimize-explosions: false
+    player-blocking-damage-multiplier: 0.5
+effect-modifiers:
+  strength: 1.3
+  weakness: -0.5
+stackable-buckets:
+  lava: false
+  water: false
+  milk: false
+warnWhenSettingExcessiveVelocity: true
+data-value-allowed-items: []
+timings:
+  enabled: true
+  verbose: true
+  server-name-privacy: false
+  hidden-config-entries:
+  - database
+  - settings.bungeecord-addresses
+  history-interval: 300
+  history-length: 3600
+spawn-limits:
+  monsters: 70
+  animals: 15
+  water-animals: 5
+  ambient: 15
+chunk-gc:
+  period-in-ticks: 600
+  load-threshold: 0
+ticks-per:
+  animal-spawns: 400
+  monster-spawns: 1
+  autosave: -1
+aliases: now-in-commands.yml
+database:
+  username: bukkit
+  isolation: SERIALIZABLE
+  driver: org.sqlite.JDBC
+  password: walrus
+  url: jdbc:sqlite:{DIR}{NAME}.db
+
+</spigotConfig>

@@ -1,0 +1,563 @@
+groups:
+  Default:
+    options:
+      default: true
+      prefix: §7
+      suffix: §7
+    permissions:
+    - sw.kit
+    - bwbbe.effect
+    - bwfe.effect
+    - gadgetsmenu.pets.*
+    - modifyworld.*
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.mysteryboxes.open.*
+    - gadgetsmenu.animations.*
+    - autosmelt.mine
+    - interactivebooks.open.1
+    - Mik1313.giftcode.use
+    - sign.selector
+    - swkilleffect.swkilleffect
+    - color.7
+    - chestcommands.open.*.yml
+    - stats
+    - msg.sendmessage
+    - msg.console
+    - thesieutoc.use
+    - delivery.unique1
+    - delivery.vote1
+    - delivery.free
+    - thesieutoc.top
+    - gadgetsmenu.multipleboxes.*
+    - gadgetsmenu.ridepet
+    - gadgetsmenu.summonpet
+    - gadgetsmenu.commands.namepet
+    - bw.shout
+    - grapplinghook.worlds.*
+    - bw.rejoin
+    - pixellogin.player.register
+    - pixellogin.player.login
+    - pixellogin.player.changepassword
+    worlds:
+      world:
+        permissions:
+        - parkour.use
+        - parkour.parkour
+  VIP:
+    permissions:
+    - bw.chatcolor
+    - gadgetsmenu.pets.*
+    - modifyworld.*
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.menuselector
+    - autosmelt.mine
+    - delivery.vip
+    - tag.vip
+    - sw.thor
+    - gremoryskywars.party.slot3
+    - color.a
+    - sw.start
+    - essentials.chat.color
+    - gadgetsmenu.hats.*
+    - gadgetsmenu.animatedhats.*
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+    options:
+      rank: '6501'
+      prefix: '§a[VIP] '
+      suffix: §a
+    inheritance:
+    - Default
+  VIP+:
+    permissions:
+    - modifyworld.*
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.menuselector
+    - autosmelt.mine
+    - delivery.vip+
+    - tag.vip+
+    - sw.thor
+    - gremoryskywars.party.slot4
+    - color.a
+    - sw.start
+    - gadgetsmenu.discount.*
+    - gadgetsmenu.particles.*
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+    options:
+      rank: '650'
+      prefix: '§a[VIP§6+§a] '
+      suffix: §a
+    inheritance:
+    - Default
+    - VIP
+  MVP:
+    inheritance:
+    - Default
+    - VIP
+    - VIP+
+    permissions:
+    - modifyworld.*
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.menuselector
+    - autosmelt.mine
+    - delivery.mvp
+    - tag.mvp
+    - sw.thor
+    - gremoryskywars.party.slot5
+    - color.b
+    - gadgetsmenu.suits.*
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+    options:
+      rank: '651'
+      prefix: '§b[MVP] '
+      suffix: §b
+  MVP+:
+    inheritance:
+    - Default
+    - VIP
+    - VIP+
+    - MVP
+    permissions:
+    - modifyworld.*
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.menuselector
+    - autosmelt.mine
+    - delivery.mvp+
+    - tag.mvp+
+    - sw.thor
+    - gremoryskywars.party.slot5
+    - color.b
+    - gadgetsmenu.gadgets.*
+    - gadgetsmenu.miniatures.*
+    - sw.quest.autoaccept
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+    options:
+      prefix: '§b[MVP§c+§b] '
+      suffix: §b
+  MVP++:
+    inheritance:
+    - Default
+    - VIP
+    - VIP+
+    - MVP
+    - MVP+
+    permissions:
+    - modifyworld.*
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.menuselector
+    - autosmelt.mine
+    - delivery.mvp+
+    - delivery.mvp
+    - delivery.vip+
+    - delivery.vip
+    - tag.mvp++
+    - sw.thor
+    - nospam.bypass
+    - gremoryskywars.party.slot5
+    - chatexpressions.useall
+    - chatexpressions.emotes
+    - color.6
+    - StaffChat.use
+    - simplekaboom.command.admin
+    - msg.bypass
+    - gadgetsmenu.morphs.*
+    - gadgetsmenu.banners.*
+    - gadgetsmenu.emotes.*
+    - sw.quest.autoaccept
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+    options:
+      prefix: '§6[MVP§c++§6] '
+      suffix: §6
+  MOD:
+    inheritance:
+    - Default
+    - VIP
+    - VIP+
+    - MVP
+    - MVP+
+    permissions:
+    - pixellogin.admin
+    - rankcommand.use
+    - sw.quest.autoaccept
+    - nocheatplus.notify
+    - nocheatplus.admin.debug
+    - nocheatplus.admin
+    - nocheatplus.command
+    - nocheatplus.bypass
+    - nocheatplus.checks
+    - gadgetsmenu.cosmetics.*
+    - StaffChat.use
+    - skript.admin
+    - admin.timeset
+    - fawe.admin
+    - nocheatplus.shortcut.safeadmin
+    - nocheatplus.shortcut.monitor
+    - nocheatplus.shortcut.info
+    - nocheatplus.shortcut.bypass
+    - nocheatplus.admin.*
+    - cc.clear
+    - gremoryskywars.admin
+    - bw.setup
+    - bw.*
+    - gremoryskywars.cmd.skywars
+    - tag.mod
+    - sw.thor
+    - simplekaboom.command.admin
+    - nospam.bypass
+    - delivery.mvp+
+    - delivery.mvp
+    - delivery.vip+
+    - delivery.vip
+    - chatexpressions.reload
+    - gremoryskywars.party.slot5
+    - admin.ranklist
+    - AntiPlugins.bypass
+    - Mik1313.giftcode.add
+    - Mik1313.giftcode.del
+    - watchdog.admin
+    - watchdog.testkillaura
+    - watchdog.alert
+    - essentials.*
+    - vanish.use
+    - vanish.other
+    - vanish.list
+    - vanish.silentchest
+    - litebans.ban
+    - litebans.tempban
+    - litebans.ipban
+    - litebans.unban.own
+    - litebans.unban
+    - litebans.mute
+    - litebans.tempmute
+    - litebans.ipmute
+    - litebans.unmute.own
+    - litebans.warn
+    - litebans.unwarn.own
+    - litebans.unwarn
+    - litebans.kick
+    - litebans.kick.global
+    - litebans.history
+    - litebans.staffhistory
+    - litebans.banlist
+    - litebans.warnings
+    - litebans.dupeip
+    - litebans.ipreport
+    - litebans.geoip
+    - litebans.checkban
+    - litebans.checkmute
+    - litebans.lockdown
+    - litebans.clearchat
+    - litebans.mutechat
+    - litebans.lastuuid
+    - color.c
+    - multiverse.*
+    - multiverse.access.*
+    - worldedit.*
+    - worldguard.*
+    - rankcommand.reload
+    - chatexpressions.useall
+    - chatexpressions.reload
+    - authme.admin.accounts
+    - worldedit.*
+    - worldguard.*
+    - holograms.*
+    - fawe.admin
+    options:
+      prefix: '§2[MOD] '
+      suffix: §2
+  POLICE:
+    inheritance:
+    - Default
+    - VIP
+    - VIP+
+    - MVP
+    - MVP+
+    permissions:
+    - authme.admin.accounts
+    - litebans.group.unlimited
+    - nocheatplus.notify
+    - nocheatplus.admin.debug
+    - nocheatplus.admin
+    - nocheatplus.command
+    - nocheatplus.bypass
+    - nocheatplus.checks
+    - gadgetsmenu.cosmetics.*
+    - StaffChat.use
+    - skript.admin
+    - admin.timeset
+    - fawe.admin
+    - nocheatplus.shortcut.safeadmin
+    - nocheatplus.shortcut.monitor
+    - nocheatplus.shortcut.info
+    - nocheatplus.shortcut.bypass
+    - cc.clear
+    - gremoryskywars.admin
+    - gremoryskywars.cmd.skywars
+    - tag.police
+    - sw.thor
+    - simplekaboom.command.admin
+    - nospam.bypass
+    - delivery.mvp+
+    - delivery.mvp
+    - delivery.vip+
+    - delivery.vip
+    - chatexpressions.reload
+    - gadgetsmenu.cosmetics.*
+    - gremoryskywars.party.slot5
+    - admin.ranklist
+    - AntiPlugins.bypass
+    - Mik1313.giftcode.add
+    - Mik1313.giftcode.del
+    - watchdog.admin
+    - watchdog.testkillaura
+    - watchdog.alert
+    - essentials.*
+    - vanish.use
+    - vanish.other
+    - vanish.list
+    - vanish.silentchest
+    - litebans.group.moderator
+    - litebans.ban
+    - litebans.tempban
+    - litebans.ipban
+    - litebans.unban.own
+    - litebans.unban
+    - litebans.mute
+    - litebans.tempmute
+    - litebans.ipmute
+    - litebans.unmute.own
+    - litebans.warn
+    - litebans.unwarn.own
+    - litebans.unwarn
+    - litebans.kick
+    - litebans.kick.global
+    - litebans.history
+    - litebans.staffhistory
+    - litebans.banlist
+    - litebans.warnings
+    - litebans.dupeip
+    - litebans.ipreport
+    - litebans.geoip
+    - litebans.checkban
+    - litebans.checkmute
+    - litebans.lockdown
+    - litebans.clearchat
+    - litebans.mutechat
+    - litebans.lastuuid
+    - color.9
+    - chatexpressions.useall
+    - chatexpressions.reload
+    - msg.bypass
+    - infinitejump.use
+    - sw.quest.autoaccept
+    options:
+      prefix: '§9[POLICE] '
+      suffix: §9
+  BUILDER:
+    inheritance:
+    - Default
+    - VIP
+    - VIP+
+    - MVP
+    - MVP+
+    permissions:
+    - gadgetsmenu.cosmetics.*
+    - StaffChat.use
+    - skript.admin
+    - admin.timeset
+    - fawe.admin
+    - nocheatplus.shortcut.safeadmin
+    - nocheatplus.shortcut.monitor
+    - nocheatplus.shortcut.info
+    - nocheatplus.shortcut.bypass
+    - cc.clear
+    - gremoryskywars.admin
+    - gremoryskywars.cmd.skywars
+    - tag.builder
+    - sw.thor
+    - simplekaboom.command.admin
+    - nospam.bypass
+    - delivery.mvp+
+    - delivery.mvp
+    - delivery.vip+
+    - delivery.vip
+    - chatexpressions.reload
+    - gadgetsmenu.cosmetics.*
+    - gremoryskywars.party.slot5
+    - admin.ranklist
+    - AntiPlugins.bypass
+    - Mik1313.giftcode.add
+    - Mik1313.giftcode.del
+    - watchdog.admin
+    - watchdog.testkillaura
+    - watchdog.alert
+    - essentials.*
+    - vanish.use
+    - vanish.other
+    - vanish.list
+    - vanish.silentchest
+    - color.a
+    - multiverse.*
+    - multiverse.access.*
+    - worldedit.*
+    - worldguard.*
+    - chatexpressions.useall
+    - chatexpressions.reload
+    - msg.bypass
+    - sw.quest.autoaccept
+    options:
+      prefix: '§6[BUILDER] '
+      suffix: §6
+  ADMIN:
+    inheritance:
+    - Default
+    - VIP
+    - VIP+
+    - MVP
+    - MVP+
+    permissions:
+    - pixellogin.admin
+    - sw.quest.autoaccept
+    - holograms.*
+    - nocheatplus.notify
+    - nocheatplus.admin.debug
+    - nocheatplus.admin
+    - nocheatplus.command
+    - nocheatplus.bypass
+    - nocheatplus.checks
+    - gadgetsmenu.cosmetics.*
+    - gadgetsmenu.cosmetics.*
+    - StaffChat.use
+    - skript.admin
+    - admin.timeset
+    - fawe.admin
+    - bw.setup
+    - bw.*
+    - nocheatplus.shortcut.safeadmin
+    - nocheatplus.shortcut.monitor
+    - nocheatplus.shortcut.info
+    - nocheatplus.shortcut.bypass
+    - cc.clear
+    - gremoryskywars.admin
+    - gremoryskywars.cmd.skywars
+    - tag.admin
+    - sw.thor
+    - simplekaboom.command.admin
+    - nospam.bypass
+    - delivery.mvp+
+    - delivery.mvp
+    - delivery.vip+
+    - delivery.vip
+    - chatexpressions.reload
+    - gadgetsmenu.cosmetics.*
+    - gremoryskywars.party.slot5
+    - admin.ranklist
+    - AntiPlugins.bypass
+    - Mik1313.giftcode.add
+    - Mik1313.giftcode.del
+    - watchdog.admin
+    - watchdog.testkillaura
+    - watchdog.alert
+    - essentials.*
+    - vanish.use
+    - vanish.other
+    - vanish.list
+    - vanish.silentchest
+    - litebans.ban
+    - litebans.tempban
+    - litebans.ipban
+    - litebans.unban.own
+    - litebans.unban
+    - litebans.mute
+    - litebans.tempmute
+    - litebans.ipmute
+    - litebans.unmute.own
+    - litebans.warn
+    - litebans.unwarn.own
+    - litebans.unwarn
+    - litebans.kick
+    - litebans.kick.global
+    - litebans.history
+    - litebans.staffhistory
+    - litebans.banlist
+    - litebans.warnings
+    - litebans.dupeip
+    - litebans.ipreport
+    - litebans.geoip
+    - litebans.checkban
+    - litebans.checkmute
+    - litebans.lockdown
+    - litebans.clearchat
+    - litebans.mutechat
+    - litebans.lastuuid
+    - color.c
+    - multiverse.*
+    - multiverse.access.*
+    - worldedit.*
+    - worldguard.*
+    - rankcommand.use
+    - rankcommand.reload
+    - chatexpressions.useall
+    - chatexpressions.reload
+    - msg.bypass
+    options:
+      prefix: '§c[ADMIN] '
+      suffix: §c
+  YOUTUBE:
+    inheritance:
+    - Default
+    - VIP
+    - VIP+
+    - MVP
+    - MVP+
+    - MVP++
+    permissions:
+    - gadgetsmenu.cosmetics.*
+    - StaffChat.use
+    - modifyworld.*
+    - delivery.mvp+
+    - delivery.mvp
+    - delivery.vip+
+    - delivery.vip
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.cosmetics.*
+    - autosmelt.mine
+    - tag.yt
+    - sw.thor
+    - gremoryskywars.party.slot5
+    - color.c
+    - chatexpressions.useall
+    - chatexpressions.emotes
+    - simplekaboom.command.admin
+    - msg.bypass
+    - sw.quest.autoaccept
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+    options:
+      prefix: '§c[§fYOUTUBE§c] '
+      suffix: §c
+schema-version: 1
+users:
+  0a1a720b-311f-3fd9-9d73-75a754fc81cf:
+    group:
+    - ADMIN
+    options:
+      name: ItzAnu_

@@ -1,0 +1,65 @@
+Cosmetics:
+  KillEffect:
+    Name: KillEffect
+    None: None
+    HeartExplosion: HeartExplosion
+    Firework: Firework
+    Lightning: Lightning
+    FireDance: FireDance
+    Tornado: Tornado
+    FinalSmash: FinalSmash
+  VictoryDance:
+    Name: VictoryDance
+  DeathCry:
+    Name: DeathCry
+  BowTrail:
+    Name: BowTrail
+  Auras:
+    Name: Auras
+  ShopKeeperSkins:
+    Name: ShopKeeperSkins
+Messages:
+  Help:
+  - '&e----------------------------------------------'
+  - '&cThings in {} is optional!'
+  - '&a/ma help &7- &eDisplay this message.'
+  - '&a/ma gui {KE/DC/BT/VD/Auras/Skins} &7- &eOpen the GUI you choose.'
+  - '&a/ma reload &7- &eReload the files.'
+  - '&a/ma getCosmetics [Player] &7- &eDisplay the target player''s cosmetics.'
+  - '&a/ma setKillEffect [EffectName] {Player} &7- &eSet KillEffect.'
+  - '&a/ma setDeathCry [EffectName] {Player} &7- &eSet DeathCry.'
+  - '&a/ma setBowTrail [EffectName] {Player} &7- &eSet BowTrail.'
+  - '&a/ma setAuras [EffectName] {Player} &7- &eSet Auras.'
+  - '&a/ma setSkin [EffectName] {Player} &7- &eSet ShopkeeperSkins.'
+  - '&a/ma setVictoryDance [EffectName] {Player} &7- &eSet VictoryDance.'
+  - '&a/ma runVictoryDance [Player] &7- &eRun a player''s VictoryDance.'
+  - '&e----------------------------------------------'
+  ConsoleHelp:
+  - '&e----------------------------------------------'
+  - '&cThings in {} is optional!'
+  - '&a/ma help &7- &eDisplay this message.'
+  - '&a/ma reload &7- &eReload the files.'
+  - '&a/ma getCosmetics [Player] &7- &eDisplay the target player''s cosmetics.'
+  - '&a/ma setKillEffect [EffectName] {Player} &7- &eSet KillEffect.'
+  - '&a/ma setDeathCry [EffectName] {Player} &7- &eSet DeathCry.'
+  - '&a/ma setBowTrail [EffectName] {Player} &7- &eSet BowTrail.'
+  - '&a/ma setVictoryDance [EffectName] {Player} &7- &eSet VictoryDance.'
+  - '&a/ma setAuras [EffectName] {Player} &7- &eSet Auras.'
+  - '&a/ma setSkin [EffectName] {Player} &7- &eSet ShopkeeperSkins.'
+  - '&a/ma runVictoryDance [Player] &7- &eRun a player''s VictoryDance.'
+  - '&e----------------------------------------------'
+  CosmeticsList:
+  - '&e----------------------------------------------'
+  - '&ePlayer &b{target}&e''s Cosmetics:'
+  - '&eKillEffect: &b{killeffect}'
+  - '&eVictoryDance: &b{dance}'
+  - '&eDeathCry: &b{deathcry}'
+  - '&eBowTrail: &b{trail}'
+  - '&eAuras: &b{auras}'
+  - '&e----------------------------------------------'
+  NotAvailable: '&cThe cosmetic &b{input} &cdoesn''t exist! All available: &b{available}'
+  SetSuccessfully: '&aSuccessfully set your &b{cosmetic} &ato &b{new}&a.'
+  NoPlayer: '&cThe target &b{input} &ccan not be found!'
+  NoPermission: '&cYou don''t have permission to do this!'
+  Reloaded: '&aPlugin reloaded successfully!'
+  Locked: '&cYou don''''t have this cosmetic!'

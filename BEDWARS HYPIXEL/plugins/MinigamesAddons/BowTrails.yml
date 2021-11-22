@@ -1,0 +1,40 @@
+None:
+  UniqueID: 0
+  Name: '&aNone'
+  MenuItem: BARRIER
+Barrier:
+  UniqueID: 1
+  Name: '&aBarrier'
+  MenuItem: BARRIER
+  Particle: BARRIER
+  Amount: 1
+Explosion:
+  UniqueID: 2
+  Name: '&aExplosion'
+  MenuItem: TNT
+  Particle: EXPLOSION_NORMAL
+  Amount: 10
+Flame:
+  UniqueID: 3
+  Name: '&aFlame'
+  MenuItem: LAVA_BUCKET
+  Particle: FLAME
+  Amount: 10
+Note:
+  UniqueID: 4
+  Name: '&aNote'
+  MenuItem: JUKEBOX
+  Particle: NOTE
+  Amount: 10
+Color:
+  UniqueID: 5
+  Name: '&aColor'
+  MenuItem: REDSTONE
+  Particle: REDSTONE
+  Amount: 10
+YourCustomTrail:
+  UniqueID: 6
+  Name: '&aCustom'
+  MenuItem: GRASS
+  Particle: HEART
+  Amount: 10

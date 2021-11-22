@@ -1,0 +1,60 @@
+None:
+  UniqueID: 0
+  Name: '&aNone'
+  MenuItem: BARRIER
+Bat:
+  UniqueID: 1
+  Name: '&aBat'
+  MenuItem: MONSTER_EGG
+  Sound: BAT_DEATH
+  Volume: 1.0F
+  Pitch: 1.0F
+Skeleton:
+  UniqueID: 2
+  Name: '&aSkeleton'
+  MenuItem: MONSTER_EGG
+  Sound: SKELETON_DEATH
+  Volume: 1.0F
+  Pitch: 1.0F
+Wolf:
+  UniqueID: 3
+  Name: '&aWolf'
+  MenuItem: MONSTER_EGG
+  Sound: WOLF_DEATH
+  Volume: 1.0F
+  Pitch: 1.0F
+DragonRoar:
+  UniqueID: 4
+  Name: '&aDragonRoar'
+  MenuItem: MONSTER_EGG
+  Sound: ENDERDRAGON_DEATH
+  Volume: 1.0F
+  Pitch: 1.0F
+Burp:
+  UniqueID: 5
+  Name: '&aBurp'
+  MenuItem: MONSTER_EGG
+  Sound: BURP
+  Volume: 1.0F
+  Pitch: 1.0F
+Enderman:
+  UniqueID: 6
+  Name: '&aEnderman'
+  MenuItem: MONSTER_EGG
+  Sound: ENDERMAN_DEATH
+  Volume: 1.0F
+  Pitch: 1.0F
+Firework:
+  UniqueID: 7
+  Name: '&aFirework'
+  MenuItem: MONSTER_EGG
+  Sound: FIREWORK_LAUNCH
+  Volume: 1.0F
+  Pitch: 1.0F
+CustomCry:
+  UniqueID: 8
+  Name: '&aCustom Cry'
+  MenuItem: MONSTER_EGG
+  Sound: ENTITY_ENDERMEN_TELEPORT
+  Volume: 1.0F
+  Pitch: 1.0F

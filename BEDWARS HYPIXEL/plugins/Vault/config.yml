@@ -1,0 +1,6 @@
+debug: false
+updater:
+  check: false
+  download: false
+messages:
+  access-denied: '&cYou do not have permission to use that command!'

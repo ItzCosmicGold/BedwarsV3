@@ -1,0 +1,93 @@
+None:
+  UniqueID: 0
+  Name: '&aNone'
+  MenuItem: BARRIER
+  SkinType: Entity
+  EntityType: VILLAGER
+Blaze:
+  UniqueID: 1
+  Name: '&aBlaze'
+  MenuItem: BLAZE_ROD
+  SkinType: Entity
+  EntityType: BLAZE
+Zombie:
+  UniqueID: 2
+  Name: '&aZombie'
+  MenuItem: ROTTEN_FLESH
+  SkinType: Entity
+  EntityType: ZOMBIE
+Skeleton:
+  UniqueID: 3
+  Name: '&aSkeleton'
+  MenuItem: BONE
+  SkinType: Entity
+  EntityType: SKELETON
+Bat:
+  UniqueID: 4
+  Name: '&aBat'
+  MenuItem: MONSTER_EGG
+  SkinType: Entity
+  EntityType: BAT
+Creeper:
+  UniqueID: 5
+  Name: '&aCreeper'
+  MenuItem: MONSTER_EGG
+  SkinType: Entity
+  EntityType: CREEPER
+Enderman:
+  UniqueID: 6
+  Name: '&aEnderman'
+  MenuItem: DRAGON_EGG
+  SkinType: Entity
+  EntityType: ENDERMAN
+Witch:
+  UniqueID: 7
+  Name: '&aWitch'
+  MenuItem: GLASS_BOTTLE
+  SkinType: Entity
+  EntityType: WITCH
+WitherSkeleton:
+  UniqueID: 8
+  Name: '&aWither Skeleton'
+  MenuItem: SKULL_ITEM
+  SkinType: Entity
+  EntityType: WITHER_SKELETON
+PigZombie:
+  UniqueID: 9
+  Name: '&aZombie Pigman'
+  MenuItem: GOLD_SWORD
+  SkinType: Entity
+  EntityType: PIG_ZOMBIE
+ZombieVillager:
+  UniqueID: 10
+  Name: '&aZombie Villager'
+  MenuItem: MONSTER_EGG
+  SkinType: Entity
+  EntityType: ZOMBIE_VILLAGER
+Herobrine:
+  UniqueID: 11
+  Name: '&aHerobrine'
+  MenuItem: MONSTER_EGG
+  SkinType: Custom
+  SkinValue: ewogICJ0aW1lc3RhbXAiIDogMTYxNDQ2MDE0OTkyNywKICAicHJvZmlsZUlkIiA6ICIzZmM3ZmRmOTM5NjM0YzQxOTExOTliYTNmN2NjM2ZlZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJZZWxlaGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQxZDFjM2VkN2M5YzUwMzczMjAyMjcxYTQxY2ZiNTExNWQ5NzJlYTUxOWMxN2YzMjQ4MmY5Y2I5MmM4N2MxMSIKICAgIH0KICB9Cn0=
+  SkinSignature: ozEK9OPoRdgFkKNZBLLqsHS7PjOGrUq/KYL+TZJyFKso5ecaeaWJb+VgjkAcWUq9ngO0c6FWhZfez4N3bbRyV2TGGctW5ntff8TF22hiC4npX3zopUd8r/kOeZL2YaIFfTCaVsIZ97GDxZ9O0ggx1NE1lbbwyhkqedjmknFwNkelSRLPZshx5d53x+ZxiUYM2Hk+KhYz2A9HodfQJcR4Vrl/3eld6XCisOmK4eaclJy6tY0ArgQmu5Yx3biaI/sBvxkQivIXB4YqNAaS3Y5ChgLq8HGTIjOdvGb9plBivTLUmXDmC7cgY+i1mLWS+LGS5pZR39DLxDDZpWrhGNnzOH7u0hgGc2cvkk+uoNBbaT9z9BJ3t01e7HzZ3kEubOUEjMAVtpVmU9i48NDT7GSo6u6jjc4eCqGCGxkkWUe3kKlg/TAXsUcI1NeKX9lsuKLx47autj4lFEknPRkz6ubCh7SUVpRFEndKwgeXl3qzeG5S86yrGLlL51GoSZN55AlySZKw5YYVYzlfRMF9Z3DV7kDRYNGQQ5VpA5UP63E+y0ckC6VhiHT3wD3Aa5/D3x5RD2aaWgJ6C6cC312guN4DPwqG4ViXqmX0N9Eg1pUdLrTjrUhkd2cqYCse0it4rabnuWIrwCC+bdC5I32At+QxYT3uzimMt05yEqcwjJmb8AI=
+Miner:
+  UniqueID: 12
+  Name: '&aMiner'
+  MenuItem: MONSTER_EGG
+  SkinType: Custom
+  SkinValue: ewogICJ0aW1lc3RhbXAiIDogMTYyNzEzNzUwMTkzOSwKICAicHJvZmlsZUlkIiA6ICI0ZTk0ZjQ1Yzc1OWM0MjkzYWYxNmZkZjIxOTIzN2E1ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80NDg4NzBjYTc3YWE2OTlkMDE3MDkzYjgyNzc5ZDBhNTk4ZGM0ZjNmNDlkMzUxNTMyYWU0ZDk2MzNkY2MyYTVhIgogICAgfQogIH0KfQ==
+  SkinSignature: V7qv/v0oKYJCe3Et63dzKsHvyWcs0IabSYpc99bZMktpxjJa8aHnMJdkQR3Lf9HZUROsMimDd+b/AC3w3lErp2Fp/lr+LfTlJozuxETV4iWzjy/K2byQf9gHLAgyfycG0s2eGDRPW6atrZLu8ObyeNUuaufY3+jreNGqU9R1/V+FLMcn1w2qlLxfcH8uVvSWJW63kcVQknNk8WpXV5L2p/YiA/+x7GuePMnon19idjacGkQw0qDjKY+NiHbJpENBPKeQApvPUdJs+95XHpsOH+8GwaM7Y+ktsDfLhk+3qvyBAD72A9weO6Xyab/9JdHvsLICLBalKXd1YpGl5+OEERJ4mWzlK04PeGANugpdhL5+7gGSbMgUvIF+C6QcrabN+yZViskg69cNMxJ9D1xol0uuBvtij/FmcSZAm8M/c4X5IrVQSYViYyFQd8VsNCaqfSQYb4NErxVF0mo5t0ioQFrUzp4M8cGRzMxVoQGVCEC4l54tbUswDpcLfk7quMc1vwWzRZLHxISfVNt6BWpLmE8VNGQwtDA2/cfwaLczlB+vZ7er7fQo4ilimN66AEubnsp1x6SberYnr9T5AXfo8RaQjVnx7vE3YpocRB3vzFzJ5atfhKtF+12ZNsB3cOAHp/8b/CzEaUJtbqoGkmAvLPBNx8i5g9zKA9tngsCRy6A=
+YourCustomSkin1:
+  UniqueID: 13
+  Name: '&aFollow the format given above to make your skin!'
+  MenuItem: MONSTER_EGG
+  SkinType: Custom
+  SkinValue: ewogICJ0aW1lc3RhbXAiIDogMTYyNzEzNzUwMTkzOSwKICAicHJvZmlsZUlkIiA6ICI0ZTk0ZjQ1Yzc1OWM0MjkzYWYxNmZkZjIxOTIzN2E1ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80NDg4NzBjYTc3YWE2OTlkMDE3MDkzYjgyNzc5ZDBhNTk4ZGM0ZjNmNDlkMzUxNTMyYWU0ZDk2MzNkY2MyYTVhIgogICAgfQogIH0KfQ==
+  SkinSignature: V7qv/v0oKYJCe3Et63dzKsHvyWcs0IabSYpc99bZMktpxjJa8aHnMJdkQR3Lf9HZUROsMimDd+b/AC3w3lErp2Fp/lr+LfTlJozuxETV4iWzjy/K2byQf9gHLAgyfycG0s2eGDRPW6atrZLu8ObyeNUuaufY3+jreNGqU9R1/V+FLMcn1w2qlLxfcH8uVvSWJW63kcVQknNk8WpXV5L2p/YiA/+x7GuePMnon19idjacGkQw0qDjKY+NiHbJpENBPKeQApvPUdJs+95XHpsOH+8GwaM7Y+ktsDfLhk+3qvyBAD72A9weO6Xyab/9JdHvsLICLBalKXd1YpGl5+OEERJ4mWzlK04PeGANugpdhL5+7gGSbMgUvIF+C6QcrabN+yZViskg69cNMxJ9D1xol0uuBvtij/FmcSZAm8M/c4X5IrVQSYViYyFQd8VsNCaqfSQYb4NErxVF0mo5t0ioQFrUzp4M8cGRzMxVoQGVCEC4l54tbUswDpcLfk7quMc1vwWzRZLHxISfVNt6BWpLmE8VNGQwtDA2/cfwaLczlB+vZ7er7fQo4ilimN66AEubnsp1x6SberYnr9T5AXfo8RaQjVnx7vE3YpocRB3vzFzJ5atfhKtF+12ZNsB3cOAHp/8b/CzEaUJtbqoGkmAvLPBNx8i5g9zKA9tngsCRy6A=
+YourCustomSkin2:
+  UniqueID: 14
+  Name: '&aYou can create unlimited skins!!'
+  MenuItem: MONSTER_EGG
+  SkinType: Entity
+  EntityType: ZOMBIE_VILLAGER
